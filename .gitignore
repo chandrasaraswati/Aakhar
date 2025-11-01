@@ -1,0 +1,4 @@
+# Operating System and Editor files
+.DS_Store
+Thumbs.db
+.vscode/ # VS Code specific settings

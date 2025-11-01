@@ -1,0 +1,82 @@
+/*
+ * === COMPONENT: RECALL PAGE ===
+ */
+
+.recall-nav {
+  margin-bottom: 1rem;
+}
+
+#recall-back-btn {
+  padding: 0.5rem 1rem;
+  background-color: #666;
+}
+
+#recall-back-btn:hover {
+  background-color: #444;
+  opacity: 1;
+}
+
+.recall-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* One card per row */
+  gap: 1rem;
+}
+
+.recall-card {
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+}
+
+.recall-card:hover {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.recall-visible {
+  text-align: center;
+}
+
+.recall-visible h3 {
+  font-size: 1.5rem;
+  color: var(--theme-color);
+}
+
+.recall-visible p {
+  font-size: 1.2rem;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+.tap-indicator {
+  font-size: 0.9rem;
+  color: #888;
+  font-style: italic;
+  transition: opacity 0.3s ease;
+}
+
+.recall-hidden {
+  /* Style for the hidden state */
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.4s ease-out;
+}
+
+.recall-hidden hr {
+  margin: 1rem 0;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+/* --- REVEALED STATE --- */
+.recall-card.is-revealed .recall-hidden {
+  /* Style for the revealed state */
+  max-height: 500px; /* Set to a large enough value */
+  opacity: 1;
+  margin-top: 1rem;
+}
+
+.recall-card.is-revealed .tap-indicator {
+  /* Hide the "(Tap to reveal)" text */
+  opacity: 0;
+  max-height: 0;
+}

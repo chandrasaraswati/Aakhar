@@ -1,0 +1,115 @@
+/*
+ * === COMPONENT: LEARN PAGE & FLASHCARDS ===
+ */
+
+/* 1. Category Selector */
+.category-selector-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.category-card {
+  background: #fff;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  padding: 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-bottom: 5px solid var(--theme-color);
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* 2. Flashcard View */
+.flashcard-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.flashcard-nav .progress {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.flashcard-content-wrapper {
+  /* This is the .card */
+  padding: 0; /* Remove default card padding */
+  overflow: hidden; /* Keep image corners rounded */
+}
+
+.flashcard-img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+#flashcard-translations {
+  padding: 1.5rem;
+}
+
+.translations-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.translations-table tr {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.translations-table tr:last-child {
+  border-bottom: none;
+}
+
+.translations-table td {
+  padding: 0.75rem 0.5rem;
+}
+
+.translations-table td:first-child {
+  font-weight: bold;
+  color: #555;
+  width: 120px; /* Gives consistent alignment */
+}
+
+.flashcard-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+/* 3. Button States */
+.flashcard-controls .btn,
+.flashcard-nav .btn {
+  /* Make buttons half-width on mobile */
+  width: 48%;
+}
+
+.flashcard-nav .btn {
+  /* The "Back" button */
+  width: auto;
+  padding: 0.5rem 1rem;
+  background-color: #666;
+}
+
+.flashcard-nav .btn:hover {
+  background-color: #444;
+  opacity: 1;
+}
+
+.btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.btn:disabled:hover {
+  opacity: 0.7;
+}

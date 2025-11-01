@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aakhar - Learn Uttarakhandi Languages</title>
+  
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icons/icon-192x192.png" type="image/png">
+  <meta name="theme-color" content="#ec6207">
+  
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/responsive.css">
+  
+  <link rel="stylesheet" href="src/css/components/flashcard.css">
+  <link rel="stylesheet" href="src/css/components/recall.css">
+  <link rel="stylesheet" href="src/css/components/quiz.css">
+
+</head>
+<body>
+  <header>
+    <h1>Aakhar (आखर)</h1>
+  </header>
+
+  <nav class="main-nav">
+    <a href="#about">About</a>
+    <a href="#learn">Learn</a>
+    <a href="#recall">Recall</a>
+    <a href="#quiz">Quiz</a>
+  </nav>
+
+  <main id="app-content"></main>
+
+  <footer>
+    <p>&copy; 2025 Aakhar Project. Feedback is welcome!</p>
+  </footer>
+
+  <script src="src/js/main.js" type="module"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(registration => {
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+          })
+          .catch(err => {
+            console.log('ServiceWorker registration failed: ', err);
+          });
+      });
+    }
+  </script>
+
+</body>
+</html>

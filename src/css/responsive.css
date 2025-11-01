@@ -1,0 +1,62 @@
+/*
+ * === AAKHAR APP: RESPONSIVE STYLES ===
+ */
+
+/* === For Tablets and Small Desktops === */
+@media (max-width: 768px) {
+  #app-content {
+    width: 95%;
+    margin: 1.5rem auto;
+  }
+
+  .main-nav a {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+
+/* === For Mobile Phones === */
+@media (max-width: 600px) {
+  header {
+    padding: 1rem;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  /* * Stack the navigation vertically on mobile.
+   * This is a key change for mobile usability.
+   */
+  .main-nav {
+    flex-direction: column;
+    align-items: stretch; /* Make links fill the width */
+  }
+  
+  .main-nav a {
+    text-align: center;
+    border-bottom: 1px solid #eee;
+  }
+
+  .main-nav a:last-child {
+    border-bottom: none;
+  }
+
+  #app-content {
+    width: 100%;
+    margin: 1rem auto;
+    padding: 0.5rem;
+  }
+
+  .card {
+    padding: 1rem;
+  }
+
+  .btn {
+    /* Make buttons full-width for easy tapping */
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 0.8rem;
+  }
+}

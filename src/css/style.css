@@ -1,0 +1,33 @@
+/* === 5. Component: Acknowledgements (About Page) === */
+
+.team-grid {
+  display: grid;
+  /* Create a responsive grid: 1 column on mobile, 2 on tablet, 3 on desktop */
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures image covers the space without stretching */
+  border: 3px solid var(--theme-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0.75rem;
+}
+
+.team-member h3 {
+  font-size: 1.15rem;
+  margin-bottom: 0.25rem;
+}
+
+.team-member p {
+  font-size: 0.9rem;
+  color: #666;
+}

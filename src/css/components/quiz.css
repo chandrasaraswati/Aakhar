@@ -1,0 +1,167 @@
+/*
+ * === COMPONENT: QUIZ PAGE ===
+ */
+
+/* 1. Quiz Setup */
+.quiz-setup-container .form-group {
+  margin: 1.5rem 0;
+}
+
+.quiz-setup-container label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.quiz-setup-container select {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: var(--border-radius);
+  border: 1px solid #ccc;
+}
+
+/* 2. Quiz View Header */
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5rem 1rem;
+  border-bottom: 2px solid #eee;
+  margin-bottom: 1rem;
+}
+
+.quiz-header .progress {
+  font-size: 1rem;
+  color: #666;
+}
+
+#quiz-score {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+#quit-quiz-btn {
+  background-color: #aa0000;
+  padding: 0.5rem 1rem;
+}
+
+/* 3. Quiz Question */
+.quiz-question-card {
+  text-align: center;
+  border-left: 5px solid var(--theme-color);
+}
+
+.quiz-question-card h2 {
+  font-size: 2rem;
+  color: var(--text-dark);
+  margin-top: 0.5rem;
+}
+
+.quiz-question-card p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* 4. Quiz Options */
+.quiz-options-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* 1 column on mobile */
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.quiz-option-btn {
+  width: 100%;
+  padding: 1.25rem;
+  font-size: 1.1rem;
+  background-color: #fff;
+  color: var(--theme-color);
+  border: 2px solid var(--theme-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.quiz-option-btn:not(:disabled):hover {
+  background-color: #fdfaf7;
+  transform: translateY(-2px);
+}
+
+/* Option States */
+.quiz-option-btn.correct {
+  background-color: #28a745; /* Green */
+  color: #fff;
+  border-color: #218838;
+}
+
+.quiz-option-btn.incorrect {
+  background-color: #dc3545; /* Red */
+  color: #fff;
+  border-color: #c82333;
+  opacity: 0.8;
+}
+
+.quiz-option-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+/* Dim incorrect buttons that weren't selected */
+.quiz-option-btn:disabled:not(.correct):not(.incorrect) {
+  opacity: 0.4;
+}
+
+/* 5. Feedback & Navigation */
+#quiz-feedback-area {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 1.5rem; /* Reserve space */
+  margin-bottom: 1rem;
+}
+
+.feedback-correct {
+  color: #28a745;
+}
+
+.feedback-incorrect {
+  color: #dc3545;
+}
+
+#next-question-btn {
+  width: 100%;
+  font-size: 1.1rem;
+}
+
+/* 6. Results View */
+.quiz-results-view {
+  text-align: center;
+}
+
+.final-score-number {
+  font-size: 4rem;
+  font-weight: bold;
+  color: var(--theme-color);
+  line-height: 1;
+}
+
+.final-score-percent, .final-score {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.final-message {
+  font-size: 1.25rem;
+  font-style: italic;
+  margin: 1.5rem 0;
+  color: #333;
+}
+
+.quiz-results-controls {
+  margin-top: 1.5rem;
+}
+
+/* Responsive Grid for Options (Tablets) */
+@media (min-width: 600px) {
+  .quiz-options-grid {
+    grid-template-columns: 1fr 1fr; /* 2 columns */
+  }
+}
