@@ -65,7 +65,7 @@ export function renderAboutPage(mainContentElement) {
         <h2>Feedback</h2>
         <p>
           This app is for the community. If you have feedback, suggestions, or would like to
-          contribute, please contact us at: <strong>feedback@aakhar.app</strong> (example).
+          contribute, please contact us at: <strong>p(at)earthlord.io</strong>.
         </p>
       </div>
     </div>
