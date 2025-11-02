@@ -2,7 +2,6 @@
 // We'll create these files next (e.g., in src/js/components/)
 import { renderAboutPage } from './components/about.js';
 import { renderLearnPage } from './components/learn.js';
-import { renderRecallPage } from './components/recall.js';
 import { renderQuizPage } from './components/quiz.js';
 
 /**
@@ -11,7 +10,6 @@ import { renderQuizPage } from './components/quiz.js';
 const routes = {
   '#about': renderAboutPage,
   '#learn': renderLearnPage,
-  '#recall': renderRecallPage,
   '#quiz': renderQuizPage,
 };
 

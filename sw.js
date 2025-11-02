@@ -13,7 +13,6 @@ const STATIC_FILES = [
   'src/js/router.js',
   'src/js/components/about.js',
   'src/js/components/learn.js',
-  'src/js/components/recall.js',
   'src/js/components/quiz.js',
   'src/css/style.css',
   'src/css/responsive.css',
