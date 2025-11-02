@@ -54,7 +54,31 @@ export function triggerInstallPrompt() {
 
 // --- End of PWA Logic ---
 
+// --- ** Mobile Navigation Toggle Logic ** ---
+function initMobileNav() {
+  const hamburgerBtn = document.getElementById('hamburger-btn');
+  const navMenu = document.getElementById('main-nav-menu');
+
+  if (hamburgerBtn && navMenu) {
+    // 1. Toggle menu on hamburger click
+    hamburgerBtn.addEventListener('click', () => {
+      navMenu.classList.toggle('is-open');
+    });
+
+    // 2. (Good UX) Close menu when a nav link is clicked
+    navMenu.addEventListener('click', (e) => {
+      // Check if the clicked element is a link
+      if (e.target.tagName === 'A') {
+        navMenu.classList.remove('is-open');
+      }
+    });
+  }
+}
+
+// ** CALL THE NEW FUNCTION **
+initMobileNav();
+
+// --- End of Mobile Nav Logic ---
 
 // 3. Start the application by initializing the router
-// This runs as before.
 initRouter();

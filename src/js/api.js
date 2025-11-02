@@ -2,16 +2,46 @@
 const DATA_PATH = 'assets/data/';
 const IMAGE_PATH = 'assets/images/';
 
-// --- NEW ---
-// This is now the single source of truth for your categories.
-// Just add the JSON filename (without .json) here.
-const CATEGORY_IDS = [
-  'common_words',
-  'common_phrases',
-  'relations'
-  // To add 'animals.json', just add 'animals' to this list.
-  // To add 'food_items.json', just add 'food_items' here.
-];
+// This will store the category list after we fetch it
+let categoryCache = null;
+
+/**
+ * Helper: Fetches the list of category IDs from our manifest file.
+ * Caches the result so we only fetch it once.
+ */
+async function fetchCategoryIds() {
+  if (categoryCache) {
+    return categoryCache; // Return from cache if available
+  }
+  
+  try {
+    const response = await fetch(`${DATA_PATH}_categories.json`);
+    if (!response.ok) {
+      throw new Error('Failed to load category manifest');
+    }
+    const data = await response.json();
+    categoryCache = data; // Store in cache
+    return data;
+  } catch (error) {
+    console.error('Error fetching category list:', error);
+    return []; // Return empty on error
+  }
+}
+
+/**
+ * Shuffles an array in place.
+ * (Fisher-Yates Algorithm)
+ * @param {Array<any>} array The array to shuffle.
+ * @returns {Array<any>} The shuffled array.
+ */
+export function shuffle(array) {
+  let a = [...array]; // Create a copy
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
 
 /**
  * Helper function to capitalize the first letter of a string.
@@ -51,13 +81,16 @@ export async function getCategoryData(categoryName) {
  * e.g., 'common_words' becomes { id: 'common_words', title: 'Common Words' }
  * @returns {Array<Object>} An array of category objects.
  */
-export function getAvailableCategories() {
-  return CATEGORY_IDS.map(id => {
-    // Transform the ID string into a user-friendly title
+export async function getAvailableCategories() {
+  // 1. Await the list of IDs from our new function
+  const categoryIds = await fetchCategoryIds();
+  
+  // 2. Transform the IDs into titles (same logic as before)
+  return categoryIds.map(id => {
     const title = id
-      .split('_')              // 'common_words' -> ['common', 'words']
-      .map(capitalize)       // ['common', 'words'] -> ['Common', 'Words']
-      .join(' ');             // ['Common', 'Words'] -> 'Common Words'
+      .split('_')
+      .map(capitalize)
+      .join(' ');
     
     return { id, title };
   });
@@ -72,6 +105,10 @@ export function getAvailableCategories() {
  */
 export function getImagePath(englishText) {
   // Replace all spaces with underscores and append the extension.
-  const fileName = englishText.replace(/ /g, '_') + '.jpg';
+  const fileName = englishText
+    .replaceAll(" ", '_')    // First, replace all spaces with underscores
+    .replaceAll("?", '_')    // Then, remove all question marks
+    .replaceAll("'", '_')    // Then, remove all ' marks
+      + '.png';
   return `${IMAGE_PATH}${fileName}`;
 }

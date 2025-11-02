@@ -4,59 +4,94 @@
 
 /* === For Tablets and Small Desktops === */
 @media (max-width: 768px) {
-  #app-content {
-    width: 95%;
-    margin: 1.5rem auto;
-  }
+  /* ... (Your existing tablet styles) ... */
 
-  .main-nav a {
-    padding: 1rem;
-    font-size: 0.9rem;
+  /* Stack the translation grid on tablets too */
+  .translation-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .lang-col:last-child {
+    padding-left: 0;
+    border-left: none;
+    margin-top: 1rem;
   }
 }
 
 
 /* === For Mobile Phones === */
 @media (max-width: 600px) {
-  header {
-    padding: 1rem;
-  }
+  /* ... (Your existing header, nav, hamburger, etc. styles) ... */
 
-  header h1 {
-    font-size: 1.5rem;
-  }
-
-  /* * Stack the navigation vertically on mobile.
-   * This is a key change for mobile usability.
+  /* * REQUEST 1: COLLAPSIBLE CARDS (ACCORDION)
    */
-  .main-nav {
-    flex-direction: column;
-    align-items: stretch; /* Make links fill the width */
+  .card-header {
+    position: relative;
+    cursor: pointer;
+    padding-right: 2rem; /* Make space for the icon */
+  }
+
+  /* Add an icon (a "+") to the header */
+  .card-header::after {
+    content: '+';
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--theme-color);
+    transition: transform 0.2s ease;
   }
   
-  .main-nav a {
-    text-align: center;
-    border-bottom: 1px solid #eee;
+  /* When open, change icon to a "−" */
+  .card.is-open .card-header::after {
+    content: '−';
+    transform: translateY(-2px);
   }
 
-  .main-nav a:last-child {
-    border-bottom: none;
+  /* Collapse the content by default */
+  .card-content {
+    max-height: 0;
+    overflow: hidden;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    transition: all 0.4s ease-out;
   }
-
-  #app-content {
-    width: 100%;
-    margin: 1rem auto;
-    padding: 0.5rem;
+  
+  /* When .is-open, expand the content */
+  .card.is-open .card-content {
+    max-height: 3000px; /* Needs to be larger than any possible content */
+    margin-top: 1.5rem; /* Add back spacing */
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-top: 1px solid #eee;
   }
-
+  
+  /* On mobile, remove card padding for .card-content */
   .card {
     padding: 1rem;
   }
+  .card.is-open .card-content {
+    padding: 1.5rem 0 0 0;
+  }
 
-  .btn {
-    /* Make buttons full-width for easy tapping */
-    width: 100%;
-    font-size: 1.1rem;
-    padding: 0.8rem;
+
+  /* * SHOW "ADD TO HOME" CARD
+   */
+  #add-to-home-card {
+    display: block;
+  }
+  
+  /* * OTHER MOBILE TWEAKS 
+   */
+   
+  /* Stack endorsement profile */
+  .endorsement-profile {
+    flex-direction: column;
+    text-align: center;
+  }
+  .endorsement-profile .team-member-img {
+    margin-bottom: 0.5rem;
   }
 }

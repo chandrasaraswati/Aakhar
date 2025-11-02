@@ -124,12 +124,34 @@ footer {
   opacity: 0.85;
 }
 
+.btn-icon {
+  font-size: 1.25rem;
+  padding: 0.5rem 0.75rem;
+  line-height: 1; /* Helps vertically center the emoji */
+}
+
 /* For error messages */
 .error {
   color: #D8000C; /* Red */
   background-color: #FFD2D2;
   padding: 1rem;
   border-radius: var(--border-radius);
+}
+
+/* Card structure */
+.card-header {
+  padding-bottom: 1rem; /* Add some space before content */
+}
+/* Ensure h2 in header has no bottom margin */
+.card-header h2 {
+  margin-bottom: 0;
+}
+
+/* * .card-content is visible by default on desktop. 
+ * It will be hidden by responsive.css on mobile. 
+ */
+.card-content {
+  /* No special styles needed for desktop */
 }
 
 /* === 5. Component: Acknowledgements (About Page) === */
@@ -164,4 +186,77 @@ footer {
 .team-member p {
   font-size: 0.9rem;
   color: #666;
+}
+
+/* Endorsement Profile Style */
+.endorsement-profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: var(--border-radius);
+}
+.endorsement-profile .team-member-img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 0;
+}
+.endorsement-profile h3 {
+  margin-bottom: 0.25rem;
+}
+
+/* === 6. Hamburger Menu (Desktop-First) === */
+
+.hamburger-btn {
+  display: none; /* Hidden on desktop by default */
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  
+  /* Positioning */
+  position: absolute;
+  top: 1.5rem; /* Adjust to vertically center */
+  right: 1.5rem;
+  z-index: 110; /* Above nav */
+}
+
+.hamburger-bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px 0;
+  background-color: var(--text-light); /* White bars */
+  transition: 0.3s;
+}
+
+/* === 7. Component: About Page Specifics === */
+
+/* Request 2: Translation Grid */
+.translation-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns */
+  gap: 1.5rem;
+}
+.lang-col p {
+  margin-bottom: 1rem;
+}
+.lang-col:last-child {
+  padding-left: 1.5rem;
+  border-left: 2px solid #eee;
+}
+
+/* Request 3: Hide "Add to Home" card on desktop */
+#add-to-home-card {
+  display: none;
+}
+
+/* Request 4: Map Image Styling */
+.map-image {
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius);
+  margin-top: 1rem;
 }

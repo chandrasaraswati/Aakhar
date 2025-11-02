@@ -80,3 +80,11 @@
   opacity: 0;
   max-height: 0;
 }
+
+.recall-nav {
+  /* ** ADD THESE TWO LINES ** */
+  display: flex;
+  gap: 0.5rem; /* Adds space between buttons */
+  
+  margin-bottom: 1rem;
+}

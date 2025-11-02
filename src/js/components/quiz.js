@@ -32,8 +32,8 @@ export function renderQuizPage(mainContentElement) {
 /**
  * Renders the initial setup screen (category & language select).
  */
-function renderQuizSetup() {
-  const categories = getAvailableCategories();
+async function renderQuizSetup() {
+  const categories = await getAvailableCategories();
   
   const setupHtml = `
     <div class="card quiz-setup-container">

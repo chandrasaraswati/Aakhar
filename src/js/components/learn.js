@@ -1,5 +1,5 @@
 // Import API functions
-import { getAvailableCategories, getCategoryData, getImagePath } from '../api.js';
+import { getAvailableCategories, getCategoryData, getImagePath, shuffle } from '../api.js';
 
 // Module-level variables to hold the state
 let mainContainer = null;
@@ -22,8 +22,8 @@ export function renderLearnPage(mainContentElement) {
 /**
  * Renders the UI for selecting a learning category.
  */
-function renderCategorySelector() {
-  const categories = getAvailableCategories();
+async function renderCategorySelector() {
+  const categories = await getAvailableCategories();
   
   let categoryHtml = `
     <div class="card">
@@ -80,13 +80,16 @@ async function loadCategory(categoryId) {
  * Renders the main flashcard UI shell (buttons, containers).
  */
 function renderFlashcardView() {
-  const categoryTitle = getAvailableCategories().find(c => c.id === categoryData[0]?.id)?.title || 'Flashcards';
-
-  const viewHtml = `
+    const viewHtml = `
     <div class="flashcard-view">
       
       <div class="flashcard-nav">
-        <button class="btn" id="learn-back-btn">&larr; Back to Categories</button>
+        <div class="nav-controls-left">
+          <button class="btn" id="learn-back-btn">&larr;</button>
+          
+          <button class="btn btn-icon" id="shuffle-btn" title="Shuffle Deck">🔀</button>
+        </div>
+        
         <span id="progress-indicator" class="progress"></span>
       </div>
       
@@ -101,7 +104,7 @@ function renderFlashcardView() {
       </div>
       
     </div>
-  `;
+    `;
   
   mainContainer.innerHTML = viewHtml;
   
@@ -109,7 +112,8 @@ function renderFlashcardView() {
   document.getElementById('learn-back-btn').addEventListener('click', renderCategorySelector);
   document.getElementById('prev-btn').addEventListener('click', () => navigateCard(-1));
   document.getElementById('next-btn').addEventListener('click', () => navigateCard(1));
-  
+  document.getElementById('shuffle-btn').addEventListener('click', shuffleDeck);
+
   // Show the first card
   showCurrentCard();
 }
@@ -180,4 +184,13 @@ function navigateCard(direction) {
     currentIndex = newIndex;
     showCurrentCard();
   }
+}
+
+/**
+ * Shuffles the deck and returns to the first card.
+ */
+function shuffleDeck() {
+  categoryData = shuffle(categoryData);
+  currentIndex = 0;
+  showCurrentCard();
 }

@@ -18,7 +18,8 @@ const STATIC_FILES = [
   'src/css/style.css',
   'src/css/responsive.css',
   'assets/icons/icon-192x192.png',
-  'assets/icons/icon-512x512.png'
+  'assets/icons/icon-512x512.png',
+  'assets/icons/icon-1024x1024.png',
   // Note: Do not add data/ or images/ here. They will be cached dynamically.
 ];
 
