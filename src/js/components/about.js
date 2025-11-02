@@ -10,6 +10,10 @@ export function renderAboutPage(mainContentElement) {
   const aboutHtml = `
     <div class="about-container">
       
+      <div id="add-to-home-card">
+        <button class="btn" id="btn-install">Add to Home Screen</button>
+      </div>
+
       <div class="card">
         <div class="card-header">
           <h2>Introduction | परिचय</h2>
@@ -81,19 +85,6 @@ export function renderAboutPage(mainContentElement) {
               The state is divided into two divisions, Garhwal and Kumaon, with a total of 13 districts. The temporary capital of Uttarakhand is Dehradun. On 4 March 2020, Gairsain, a town in Chamoli District, was declared the summer capital of the state. The High Court of the state is located in Nainital. The natives of the state are generally called Uttarakhandi, or more specifically either Garhwali, Kumaoni or Jaunsaari by their region of origin.
           </p>
           <img src="assets/other/uttarakhand_map.png" alt="Uttarakhand map" class="map-image">            
-        </div>
-      </div>
-
-      <div class="card" id="add-to-home-card">
-        <div class="card-header">
-          <h2>Add to Home Screen</h2>
-        </div>
-        <div class="card-content">
-          <p>
-            Install this app on your phone for easy, offline access.
-            It works just like a native app!
-          </p>
-          <button class="btn" id="btn-install">Add to Home Screen</button>
         </div>
       </div>
 

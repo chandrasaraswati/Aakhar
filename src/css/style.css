@@ -251,6 +251,7 @@ footer {
 /* Request 3: Hide "Add to Home" card on desktop */
 #add-to-home-card {
   display: none;
+  margin-bottom: 1.5rem;
 }
 
 /* Request 4: Map Image Styling */
