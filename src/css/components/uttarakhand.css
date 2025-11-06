@@ -1,0 +1,85 @@
+/*
+ * === COMPONENT: UTTARAKHAND PAGE ===
+ */
+
+/* 1. Admin Details Table */
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table tr {
+  border-bottom: 1px solid #f0f0f0;
+}
+.admin-table tr:last-child {
+  border-bottom: none;
+}
+
+.admin-table td {
+  padding: 0.8rem 0.5rem;
+}
+
+.admin-table td:first-child {
+  font-weight: bold;
+  color: #555;
+  width: 40%;
+}
+
+/* 2. State Symbols Grid */
+.symbols-grid {
+  display: grid;
+  /* Responsive grid: 1 column on mobile, 2 on desktop */
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.symbol-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: var(--border-radius);
+}
+
+.symbol-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--theme-color);
+  flex-shrink: 0; /* Prevents image from shrinking */
+}
+
+.symbol-item h3 {
+  margin-bottom: 0.25rem;
+  font-size: 1.15rem;
+}
+
+.symbol-item p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* On screens larger than a mobile phone */
+@media (min-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: 1fr 1fr; /* 2 columns */
+  }
+}
+
+/* 3. Credits Link */
+.credits-link {
+  text-align: center;
+  margin: 2rem 0 1rem 0;
+  font-size: 1rem;
+}
+
+.credits-link a {
+  color: #555;
+  text-decoration: underline;
+}
+
+.credits-link a:hover {
+  color: var(--theme-color);
+}

@@ -1,6 +1,7 @@
 // Import the functions that will build and render each "page"
 // We'll create these files next (e.g., in src/js/components/)
 import { renderAboutPage } from './components/about.js';
+import { renderUttarakhandPage } from './components/uttarakhand.js';
 import { renderLearnPage } from './components/learn.js';
 import { renderQuizPage } from './components/quiz.js';
 
@@ -9,6 +10,7 @@ import { renderQuizPage } from './components/quiz.js';
  */
 const routes = {
   '#about': renderAboutPage,
+  '#uttarakhand': renderUttarakhandPage,
   '#learn': renderLearnPage,
   '#quiz': renderQuizPage,
 };

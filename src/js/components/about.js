@@ -75,21 +75,6 @@ export function renderAboutPage(mainContentElement) {
 
       <div class="card">
         <div class="card-header">
-          <h2>Uttarakhand | उत्तराखंड</h2>
-        </div>
-        <div class="card-content">
-          <p>
-              Uttarakhand (earlier known as Uttaranchal] is in the northern part of India. It is also referred to as the Devabhumi as number of Hindu temples and pilgrimage centres are spread throughout the state. On 9 November 2000, Uttarakhand became the 27th state of the Republic of India, being carved from the Himalayan districts of Uttar Pradesh.
-          </p>
-          <p>    
-              The state is divided into two divisions, Garhwal and Kumaon, with a total of 13 districts. The temporary capital of Uttarakhand is Dehradun. On 4 March 2020, Gairsain, a town in Chamoli District, was declared the summer capital of the state. The High Court of the state is located in Nainital. The natives of the state are generally called Uttarakhandi, or more specifically either Garhwali, Kumaoni or Jaunsaari by their region of origin.
-          </p>
-          <img src="assets/other/uttarakhand_map.png" alt="Uttarakhand map" class="map-image">            
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-header">
           <h2>Acknowledgements</h2>
         </div>
         <div class="card-content">
@@ -110,10 +95,15 @@ export function renderAboutPage(mainContentElement) {
               <h3>Rekha Dimri</h3>
               <p>Coordinator</p>
             </div>
-              <div class="team-member">
-              <img class="team-member-img" src="assets/team/Arun_Lakhera.jpg" alt="Arun Lakhera">
-              <h3>Arun Lakhera</h3>
-              <p>Developer</p>
+            <div class="team-member">
+              <img class="team-member-img" src="assets/team/Urmila_Singh.jpg" alt="Urmila Singh">
+              <h3>Urmila Singh</h3>
+              <p>Contributor</p>
+            </div>
+            <div class="team-member">
+              <img class="team-member-img" src="assets/team/Puran_Kandpal.jpg" alt="Puran Kandpal">
+              <h3>Puran Kandpal</h3>
+              <p>Contributor</p>
             </div>
           </div>
         </div>

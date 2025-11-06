@@ -7,11 +7,13 @@ const CACHE_DYNAMIC_NAME = 'aakhar-dynamic-v2';
 const STATIC_FILES = [
   '/',
   'index.html',
+  'credits.html',
   'manifest.webmanifest',
   'src/js/main.js',
   'src/js/api.js',
   'src/js/router.js',
   'src/js/components/about.js',
+  'src/js/components/uttarakhand.js',
   'src/js/components/learn.js',
   'src/js/components/quiz.js',
   'src/css/style.css',
