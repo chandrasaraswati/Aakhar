@@ -86,7 +86,7 @@ export function renderUttarakhandPage(mainContentElement) {
 
       <div class="card">      
         <p class="credits-link">
-            <a href="credits.html" target="_blank">Image Credits for this page</a>
+            <a href="credits.html" target="_self">Image Credits for this page</a>
         </p>
       </div>
 

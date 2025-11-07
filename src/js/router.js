@@ -1,5 +1,6 @@
 // Import the functions that will build and render each "page"
 // We'll create these files next (e.g., in src/js/components/)
+import { renderHomePage } from './components/home.js';
 import { renderAboutPage } from './components/about.js';
 import { renderUttarakhandPage } from './components/uttarakhand.js';
 import { renderLearnPage } from './components/learn.js';
@@ -9,6 +10,7 @@ import { renderQuizPage } from './components/quiz.js';
  * A simple mapping of URL hash routes to their corresponding render functions.
  */
 const routes = {
+  '#home': renderHomePage,
   '#about': renderAboutPage,
   '#uttarakhand': renderUttarakhandPage,
   '#learn': renderLearnPage,
@@ -20,6 +22,8 @@ const routes = {
  * We will inject all page content into this element.
  */
 const mainContentElement = document.getElementById('app-content');
+// ** Get the <body> element **
+const bodyElement = document.body;
 
 /**
  * The core router function.
@@ -27,12 +31,19 @@ const mainContentElement = document.getElementById('app-content');
  */
 function handleRouteChange() {
   // Get the current hash from the URL (e.g., "#learn")
-  // If no hash exists, default to "#about"
-  const hash = window.location.hash || '#about';
+  // If no hash exists, default to "#home"
+  const hash = window.location.hash || '#home';
 
   // Find the render function corresponding to the current hash.
-  // If the hash is not in our routes, default to the 'About' page function.
-  const renderFunction = routes[hash] || routes['#about'];
+  // If the hash is not in our routes, default to the 'Home' page function.
+  const renderFunction = routes[hash] || routes['#home'];
+
+  // ** Add/Remove class on <body> **
+  if (hash === '#home') {
+    bodyElement.classList.add('home-page-active');
+  } else {
+    bodyElement.classList.remove('home-page-active');
+  }
 
   // Clear the existing content from the main container
   mainContentElement.innerHTML = '';

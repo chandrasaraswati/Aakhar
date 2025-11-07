@@ -130,6 +130,27 @@ footer {
   line-height: 1; /* Helps vertically center the emoji */
 }
 
+/* New Secondary Button Style */
+.btn-secondary {
+  display: inline-block;
+  background-color: #666;
+  color: var(--text-light);
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.2s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #444;
+  opacity: 1; /* Override default hover opacity if needed */
+}
+
 /* For error messages */
 .error {
   color: #D8000C; /* Red */
@@ -234,7 +255,7 @@ footer {
 
 /* === 7. Component: About Page Specifics === */
 
-/* Request 2: Translation Grid */
+/* Translation Grid */
 .translation-grid {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Two columns */
@@ -248,16 +269,34 @@ footer {
   border-left: 2px solid #eee;
 }
 
-/* Request 3: Hide "Add to Home" card on desktop */
+/* Hide "Add to Home" card on desktop */
 #add-to-home-card {
   display: none;
   margin-bottom: 1.5rem;
 }
 
-/* Request 4: Map Image Styling */
+/* Map Image Styling */
 .map-image {
   width: 100%;
   height: auto;
   border-radius: var(--border-radius);
   margin-top: 1rem;
+}
+
+/* * Hide the Header and Nav when the home page is active.
+ * This works for both desktop and mobile.
+ */
+.home-page-active header,
+.home-page-active .main-nav {
+  display: none;
+}
+
+/* * Remove the padding/margins from the main content area
+ * ONLY on the home page, allowing it to fill the screen.
+ */
+.home-page-active #app-content {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
 }

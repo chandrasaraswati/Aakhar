@@ -75,7 +75,7 @@ export function renderAboutPage(mainContentElement) {
 
       <div class="card">
         <div class="card-header">
-          <h2>Acknowledgements</h2>
+          <h2>Project Team | परियोजना समूह</h2>
         </div>
         <div class="card-content">
           <p>This project was made possible by the dedicated individuals below:</p>
