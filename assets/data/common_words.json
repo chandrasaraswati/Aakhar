@@ -1,641 +1,485 @@
 [
   {
-    "Hindi":"चोटी",
-    "English":"Pony tail",
-    "Garhwali":"चुफली",
-    "Kumaoni":"लटी",
-    "Jaunsari":"बेंटूली",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/19QxL3vFsiFNqIY6mk5UP9icyjoLQ6sIW\/view?usp=drive_link",
-    "Sentence":""
-  },
-  {
-    "Hindi":"बेचारा",
-    "English":"Poor fellow",
-    "Garhwali":"लाटा",
-    "Kumaoni":"लाट",
-    "Jaunsari":"रांइडा",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1CxXQC3vwi8gFTXmWMbQWrGneTQf6X8hl\/view?usp=drive_link",
-    "Sentence":""
-  },
-  {
-    "Hindi":"दौड़ना",
-    "English":"Run",
-    "Garhwali":"दनक्णु",
-    "Kumaoni":"दोड़न",
-    "Jaunsari":"दौड",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1BbvRuJMVa6fkqJvgq2-qrpEgBh2R-2II\/view?usp=drive_link",
-    "Sentence":""
-  },
-  {
-    "Hindi":"कहाँ",
-    "English":"Where",
-    "Garhwali":"क्ख",
-    "Kumaoni":"काँ",
-    "Jaunsari":"N\/A",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1zQzICf5g_6XiNvOHOoxphQ4QGNK7VcEb\/view?usp=drive_link",
-    "Sentence":""
-  },
-  {
-    "Hindi":"यहाँ",
-    "English":"Here",
-    "Garhwali":"यख",
-    "Kumaoni":"इख \/ यों",
-    "Jaunsari":"ऐतके",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1wrnafIUtX_hu65_jd918fxqfxZHKqkyP\/view?usp=drivesdk",
-    "Sentence":"Meaning: “Here” means in this place, where the speaker is.\n\nIllustration idea: A person pointing to the ground at their feet with a label “Here.”"
-  },
-  {
-    "Hindi":"वहाँ",
-    "English":"There",
-    "Garhwali":"वख",
-    "Kumaoni":"वों",
-    "Jaunsari":"N\/A",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/11OKyRiRKo6aPc5njBLget_gz87kDJeM0\/view?usp=drivesdk",
-    "Sentence":"There: in or at that place, not here.\n\nIllustration idea: A simple map with a “Here” dot and a distant dot labeled “There.”"
-  },
-  {
-    "Hindi":"मेरा",
-    "English":"My",
-    "Garhwali":"मेरू",
-    "Kumaoni":"म्यर",
-    "Jaunsari":"मेरो",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1U57MIrhVmiVkS7vYsl6wxni-yVuhbRs0\/view?usp=drivesdk",
-    "Sentence":"Meaning: A word used to show that something belongs to me.\n\nIllustration idea: Draw a person pointing to a backpack labeled “my bag.”"
-  },
-  {
-    "Hindi":"तेरा",
-    "English":"Your",
-    "Garhwali":"तेरू",
-    "Kumaoni":"तुमर",
-    "Jaunsari":"N\/A",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1enky-8fDcAZjFo4AjWQjA72c2yMAB922\/view?usp=drivesdk",
-    "Sentence":"Your: a possessive word meaning “belonging to you.”\n\nIllustration idea: Draw a person labeled “you” with an arrow pointing to a backpack labeled “your backpack.”"
-  },
-  {
-    "Hindi":"जाना",
-    "English":"Go",
-    "Garhwali":"जाणु",
-    "Kumaoni":"जाण",
-    "Jaunsari":"पुडाजा",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1V3gAInV2T3jKEqd2Wf2Xl_1XcZ1luk-Z\/view?usp=drivesdk",
-    "Sentence":"Go: to move from one place to another; to leave or begin.\n\nIllustration idea: A person stepping out of a doorway with one foot forward."
-  },
-  {
-    "Hindi":"आना",
-    "English":"Come",
-    "Garhwali":"औणु",
-    "Kumaoni":"अण",
-    "Jaunsari":"उडाआ",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1TZKZNqJGXly9L-DZ_ogFmscV82qz8k8V\/view?usp=drivesdk",
-    "Sentence":"Come: to move toward someone or someplace; to arrive.\n\nIllustration idea: Show a person waving “Come here” while another person walks toward them."
-  },
-  {
-    "Hindi":"रोना",
-    "English":"Cry",
-    "Garhwali":"बिलबिलाट \/ रोण",
-    "Kumaoni":"रूण",
-    "Jaunsari":"रूणों",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1kpnqEqWdmRqvHxLeXavI6wqIGy0H7ouT\/view?usp=drivesdk",
-    "Sentence":"Cry: to let out tears, often with sounds, because you feel sad, hurt, or very upset.\n\nIllustration idea: a child sitting on the floor with tears streaming down their cheeks."
-  },
-  {
-    "Hindi":"सुगंध",
-    "English":"Flavour",
-    "Garhwali":"मिठान",
-    "Kumaoni":"खुशबू",
-    "Jaunsari":"धांद",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1VtU_fs3B6gWH2Vj8oyMQzq3am3-L1rAQ\/view?usp=drivesdk",
-    "Sentence":"Meaning: the taste of food or drink.\n\nIllustration idea: Show three ice cream scoops labeled vanilla, chocolate, and strawberry to represent different flavours."
-  },
-  {
-    "Hindi":"सड़ने की गंध",
-    "English":"Foul Smell",
-    "Garhwali":"सेंडयान",
-    "Kumaoni":"बदबू",
-    "Jaunsari":"गडाण",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/11yOLlDxZk0pUvVDfZe6IEOrLIu2YOCSj\/view?usp=drivesdk",
-    "Sentence":"Foul smell: a very bad, unpleasant odor that makes you want to move away.\n\nIllustration idea: A trash bin overflowing, with wavy stink lines and a person pinching their nose."
-  },
-  {
-    "Hindi":"दोस्त",
-    "English":"Friend",
-    "Garhwali":"दगड्या",
-    "Kumaoni":"मितुर",
-    "Jaunsari":"N\/A",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1NkD5K2GaAVWRmHZCoxbgMgxaSr9PGSbf\/view?usp=drivesdk",
-    "Sentence":"Friend: a person you like and trust who cares about you.\n\nIllustration idea: Two people sharing an umbrella in the rain."
-  },
-  {
-    "Hindi":"साथ",
-    "English":"Together",
-    "Garhwali":"दगडी",
-    "Kumaoni":"दगड",
-    "Jaunsari":"सापेची",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1QPGgxVnaK-j--bVRyG_ag7WwR9nTB1Rn\/view?usp=drivesdk",
-    "Sentence":"Meaning: With each other; in the same place or acting as one group.\n\nIllustration idea: Two hands holding each other."
-  },
-  {
-    "Hindi":"छोटी नदी",
-    "English":"Stream",
-    "Garhwali":"गाड \/ गदेरू",
-    "Kumaoni":"गध्यर",
-    "Jaunsari":"नादरी गाड",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1UdMdzw7_3wx37vR0pVr8squhGthpm63A\/view?usp=drivesdk",
-    "Sentence":"Meaning: A small, narrow river that flows through the land.\n\nIllustration idea: Draw a winding blue strip of water with a few rocks and grass along its banks."
-  },
-  {
-    "Hindi":"पहाड़ की छोटी",
-    "English":"Hill Peak",
-    "Garhwali":"डांडा",
-    "Kumaoni":"डान",
-    "Jaunsari":"ऊँचा टिमा",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1Meq0UIPBug6HmU02elos3rBeURaTSFLc\/view?usp=drivesdk",
-    "Sentence":"Hill peak: the highest point on a hill—the very top.\n\nIllustration idea: Draw a rounded hill with a small flag at the top to mark the peak."
-  },
-  {
-    "Hindi":"गुफा",
-    "English":"Cave",
-    "Garhwali":"उड्यार",
-    "Kumaoni":"बयार",
-    "Jaunsari":"आडार",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/13ytXJ3xPCJnGiGz4FWVj8CTkzLZ4vJjI\/view?usp=drivesdk",
-    "Sentence":"Cave: a large natural hole or space in the ground or in the side of a hill or mountain, often dark and rocky.\n\nIllustration idea: Draw a hillside with a dark opening and a person holding a flashlight at the entrance."
-  },
-  {
-    "Hindi":"नीचे",
-    "English":"Down",
-    "Garhwali":"मूडी",
-    "Kumaoni":"मूडी",
-    "Jaunsari":"उधो",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1WssEHzumq_8ZDTs6wQdHumI5yY7Dv7Cz\/view?usp=drivesdk",
-    "Sentence":"Down: toward a lower place or level; moving from high to low.\nIllustration: A ball rolling down a hill."
-  },
-  {
-    "Hindi":"उपर",
-    "English":"Up",
-    "Garhwali":"ऐंच \/ माथी",
-    "Kumaoni":"मथिन \/ माथ",
-    "Jaunsari":"ऊबो",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/140COFLrdDKrC8zH59VM673O9mohsUDKv\/view?usp=drivesdk",
-    "Sentence":"Up: moving or pointing toward a higher place or level.\n\nIllustration idea: A balloon rising into the sky."
-  },
-  {
-    "Hindi":"अकेला",
-    "English":"Alone",
-    "Garhwali":"यखूली",
-    "Kumaoni":"यकले",
-    "Jaunsari":"एलेका",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/12w9lLJs5IFV9pdk7BMUR1P7zeDHMyQoU\/view?usp=drivesdk",
-    "Sentence":"Meaning: being by yourself, with no one else around.\n\nIllustration idea: A single person sitting on a bench in an empty park."
-  },
-  {
-    "Hindi":"गाँव",
-    "English":"Village",
-    "Garhwali":"गौं",
-    "Kumaoni":"गौं",
-    "Jaunsari":"गौंव",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1rdjCyff2AV8ALjdzNjVE12nbkIGOdLg5\/view?usp=drivesdk",
-    "Sentence":"Village: a small group of homes and other buildings in the countryside, where a small number of people live close together.\n\nIllustration idea: Show a cluster of small houses with one narrow road and fields around."
-  },
-  {
-    "Hindi":"सिर",
-    "English":"Head",
-    "Garhwali":"कपाल \/ मुंड",
-    "Kumaoni":"कपाल",
-    "Jaunsari":"मुंड",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1uJZ3nXRW0GAjplvkmLZ0NeFBSUByyGct\/view?usp=drivesdk",
-    "Sentence":"Head: the top part of your body that holds your brain, eyes, ears, nose, and mouth.\n\nIllustration idea: Draw a simple stick figure and circle the head."
-  },
-  {
-    "Hindi":"लड़की",
-    "English":"Girl",
-    "Garhwali":"नौनी",
-    "Kumaoni":"च्यैली",
-    "Jaunsari":"चौउटी",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1UtGhYCA1Czxc9iCRASHJrOrIzyUdbJ9X\/view?usp=drivesdk",
-    "Sentence":"Girl: a female child or young female person.\n\nIllustration idea: draw a smiling young child with a ponytail and a backpack."
-  },
-  {
-    "Hindi":"शादी",
-    "English":"Marriage",
-    "Garhwali":"ब्यो",
-    "Kumaoni":"ब्या",
-    "Jaunsari":"जोजोड़ा",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1k3t3xVBKjdaeibNBSoUtLBkQXt2FlVrQ\/view?usp=drivesdk",
-    "Sentence":"Marriage is when two people make a formal promise to share their lives as partners.\n\nIllustration idea: Two interlocking rings."
-  },
-  {
-    "Hindi":"खेत",
-    "English":"Fields",
-    "Garhwali":"पूंगा",
-    "Kumaoni":"खेत",
-    "Jaunsari":"डोखरो",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1alPdBLy-qHPJtn6OC_19J8TKGPuDI86w\/view?usp=drivesdk",
-    "Sentence":"Fields: large open areas of land, often covered with grass or crops; it can also mean a subject area of study or work.\n\nIllustration idea: Show a wide green meadow with rows of crops and a fence under a blue sky."
-  },
-  {
-    "Hindi":"औरत",
-    "English":"Women",
-    "Garhwali":"जनानी",
-    "Kumaoni":"इथत्री",
-    "Jaunsari":"बेट कुड़ी",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1c-7xmjHMBD74tmn9BeLyXQlY6gy9MdzK\/view?usp=drivesdk",
-    "Sentence":"Women: adult female people; the plural of “woman.”\nIllustration idea: a simple drawing of a group of adult women standing together."
-  },
-  {
-    "Hindi":"गर्मी के दिन",
-    "English":"Hot Day",
-    "Garhwali":"रुड्या दिन",
-    "Kumaoni":"गर्म दिन",
-    "Jaunsari":"रूड़ा के दुस",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1i5tFkvFnu26p_h-URv2bfD1_sWO2iKj3\/view?usp=drivesdk",
-    "Sentence":"Meaning: A day when it’s very hot outside.\n\nIllustration idea: A big bright sun with heat waves."
-  },
-  {
-    "Hindi":"जंगल",
-    "English":"Forest",
-    "Garhwali":"बण",
-    "Kumaoni":"जंगल",
-    "Jaunsari":"बोण",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/14yZ2BKkYK1iMDZFQrxISADF7F2KUKdwY\/view?usp=drivesdk",
-    "Sentence":"Forest: A large area of land covered with many trees and plants, often home to wildlife.\n\nIllustration idea: A winding path through tall, closely packed trees with dappled sunlight."
-  },
-  {
-    "Hindi":"आकलन",
-    "English":"Estimate",
-    "Garhwali":"पैमायश",
-    "Kumaoni":"अन्ताज",
-    "Jaunsari":"अणदाज",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1CIiVqamBrw2Yez_D913wBH-vqjlIfqsY\/view?usp=drivesdk",
-    "Sentence":"Estimate: a careful guess about an amount, size, or cost based on what you know.\n\nIllustration idea: Show someone looking at a jar of coins and writing “about 50 coins.”"
-  },
-  {
-    "Hindi":"प्रसंग",
-    "English":"Context",
-    "Garhwali":"प्रसंग",
-    "Kumaoni":"चर्चा",
-    "Jaunsari":"बौलरा",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1qXOQvqUUJQqczOqCFQz42rdTfqu3ro17\/view?usp=drivesdk",
-    "Sentence":"Which word would you like me to define? I’ll give a simple meaning and one illustration idea."
-  },
-  {
-    "Hindi":"वितरण",
-    "English":"Distribution",
-    "Garhwali":"बाट्णु",
-    "Kumaoni":"बाटणबाटनो",
-    "Jaunsari":"-",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/176GbMrQ6RBR8Un72Y3OYWphUZ7JB0gfr\/view?usp=drivesdk",
-    "Sentence":"Distribution: the act of giving or delivering things from one source to many people or places, or how those things are spread out.\n\nIllustration idea: A central warehouse with arrows pointing to several stores receiving boxes."
-  },
-  {
-    "Hindi":"संदेश",
-    "English":"Message",
-    "Garhwali":"रैबार",
-    "Kumaoni":"जुवाब",
-    "Jaunsari":"खबर",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1Rqfe2bcFmMGoqmdbUtYOWZm4AdYHQMQR\/view?usp=drivesdk",
-    "Sentence":"Message: a piece of information that you send or receive.\n\nIllustration idea: a phone screen showing a new text message bubble."
-  },
-  {
-    "Hindi":"अभी",
-    "English":"Now",
-    "Garhwali":"अब्भी",
-    "Kumaoni":"अत्ते",
-    "Jaunsari":"एभी",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/13iueDM2XZ88SNrzQye1fqGUsDUarsaeI\/view?usp=drivesdk",
-    "Sentence":"Which word would you like me to explain? Share the word, and I’ll give a short, simple definition and one illustration idea."
-  },
-  {
-    "Hindi":"सचमुच",
-    "English":"Really",
-    "Garhwali":"सच माँ",
-    "Kumaoni":"सचि में",
-    "Jaunsari":"साचेको",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1qwA1AMb4V93axRwsc4Pw9nWLoDAtnggC\/view?usp=drivesdk",
-    "Sentence":"Really: shows that something is true, not pretend; or makes a word stronger, like “very.”\n\nIllustration: A person bites a lemon and says, “It’s really sour.”"
-  },
-  {
-    "Hindi":"ओह नहीं",
-    "English":"Oh No",
-    "Garhwali":"न रे ना",
-    "Kumaoni":"ना",
-    "Jaunsari":"नाले",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1kDIIWtUdy1wzM46qI6squ1hzVEftjLtx\/view?usp=drivesdk",
-    "Sentence":"Meaning: “Oh no” is an exclamation showing surprise, worry, or dismay when something bad or unwanted happens.\n\nIllustration idea: A person watching their ice cream fall off the cone, saying “Oh no!”"
-  },
-  {
-    "Hindi":"क्या",
-    "English":"What",
-    "Garhwali":"क्या च",
-    "Kumaoni":"के",
-    "Jaunsari":"का",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/12vsWz2x_uXsdqWDLTANtBnDLz6nI0aBf\/view?usp=drivesdk",
-    "Sentence":"What: A question word used to ask for information about something, or to show surprise.\n\nIllustration idea: A person looking at a strange object with a speech bubble saying, “What?”"
-  },
-  {
-    "Hindi":"क्यों",
-    "English":"Why",
-    "Garhwali":"किले",
-    "Kumaoni":"किले",
-    "Jaunsari":"काई",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1PexgPfiUA7EPKZYyFtN1tp4rmF57_sqp\/view?usp=drivesdk",
-    "Sentence":"Meaning: Used to ask for a reason or explanation.\n\nIllustration idea: A child looking out at the rain asking, “Why is it raining?”"
-  },
-  {
-    "Hindi":"हो गया",
-    "English":"Done",
-    "Garhwali":"ह्वे गे",
-    "Kumaoni":"गेहेगो",
-    "Jaunsari":"हमीगो",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1EAz6QrwzFJoTtUFsUzyGl7sktmomKQaa\/view?usp=drivesdk",
-    "Sentence":"Done: finished; no more work is needed.\n\nIllustration idea: a checklist with all items ticked."
-  },
-  {
-    "Hindi":"जल्दी",
-    "English":"Hurry",
-    "Garhwali":"सरपट",
-    "Kumaoni":"जल्द",
-    "Jaunsari":"झठ",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/182XYjttlmAX3AGH0P6Z2GePoue03xTSF\/view?usp=drivesdk",
-    "Sentence":"Hurry: to move or do something quickly because there isn’t much time.\nIllustration idea: A person sprinting to catch a closing bus while a clock shows time running out."
-  },
-  {
-    "Hindi":"औरत",
-    "English":"Lady",
-    "Garhwali":"कज्याण",
-    "Kumaoni":"सैनी",
-    "Jaunsari":"बेटकुड़ी",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1Ohi467gLKffTh5x5K1hYLgtsOPSkvnMt\/view?usp=drivesdk",
-    "Sentence":"Meaning: An adult woman; a polite or respectful term for a woman, sometimes one of high social rank.\n\nIllustration idea: Draw an adult woman in a neat dress and hat, standing with graceful posture."
-  },
-  {
-    "Hindi":"आदमी",
-    "English":"Man",
-    "Garhwali":"आदिम",
-    "Kumaoni":"मैंस",
-    "Jaunsari":"मरद",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1e7rRa95qhtc5niD3hEJ3nM6hLemNC9O2\/view?usp=drivesdk",
-    "Sentence":"Man: an adult male human.\n\nIllustration idea: Draw a simple adult male figure standing."
-  },
-  {
-    "Hindi":"कभी नही",
-    "English":"Never",
-    "Garhwali":"कब्बी ना",
-    "Kumaoni":"कभैं ना",
-    "Jaunsari":"कदीना",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1jmyaAKZ20qqWZaDNRdQjNmsdM7DeG_5F\/view?usp=drivesdk",
-    "Sentence":"Meaning: At no time; not ever.\n\nIllustration idea: A calendar with every day crossed out."
-  },
-  {
-    "Hindi":"लड़का",
-    "English":"Boy",
-    "Garhwali":"छोरा",
-    "Kumaoni":"लौड़ \/ चेला",
-    "Jaunsari":"चौऊटा",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1yQHvtdkWh698DwrXtIGt8Dg1INuU6HJX\/view?usp=drivesdk",
-    "Sentence":"Meaning: A young male person, usually a child.\n\nIllustration idea: Draw a smiling child in a T-shirt kicking a soccer ball."
-  },
-  {
-    "Hindi":"सो रहा है",
-    "English":"Sleeping",
-    "Garhwali":"सीणु",
-    "Kumaoni":"पड़ छु",
-    "Jaunsari":"सूती ये ले",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1Z6HiQ7SBHCDc-VnhddRhsOkRoNa7o5ko\/view?usp=drivesdk",
-    "Sentence":"Meaning: A natural rest when you are not awake; eyes closed, body and mind recharge.\n\nIllustration idea: Draw a person in bed with eyes closed and small “Z” letters above their head."
-  },
-  {
-    "Hindi":"वहा जाओ",
-    "English":"Go There",
-    "Garhwali":"फुंड \/ वख जा",
-    "Kumaoni":"वों जा",
-    "Jaunsari":"पूंड्डे जाओ",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1hzP61llumrCsa1jtPCtavYJ78j6UvnGF\/view?usp=drivesdk",
-    "Sentence":"Go there (idiom): to start talking about a sensitive, awkward, or taboo topic. Also literal: to travel to that place.\n\nIllustration idea: Two friends chatting; one brings up a tricky subject, and the other says, “Let’s not go there.”"
-  },
-  {
-    "Hindi":"चेहरा",
-    "English":"Face",
-    "Garhwali":"मुक्क",
-    "Kumaoni":"मुखड़",
-    "Jaunsari":"मू",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1zi0e09ui3RoNr8JXsLU1r8W4jmIYxvjo\/view?usp=drivesdk",
-    "Sentence":"Meaning: The front part of your head with eyes, nose, and mouth that shows feelings.\n\nIllustration idea: Draw a simple circle with two dots for eyes, a small line for the nose, and a curved line for a smile."
-  },
-  {
-    "Hindi":"चूहा",
-    "English":"Rat",
-    "Garhwali":"मुस्सु",
-    "Kumaoni":"मूसा",
-    "Jaunsari":"मुशा",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/16WBwFmodEPCblp_2G4BdANeaphp0kpA2\/view?usp=drivesdk",
-    "Sentence":"Meaning: A small rodent with a long tail that often lives near people and searches for food.\n\nIllustration idea: Draw a gray rat with a long pink tail sniffing beside a trash can."
-  },
-  {
-    "Hindi":"बर्तन",
-    "English":"Utensils",
-    "Garhwali":"भांडा",
-    "Kumaoni":"भांड",
-    "Jaunsari":"भांडे",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1UPaI9TgMfT-8PJAGRodlJPeTJQQ3PwsQ\/view?usp=drivesdk",
-    "Sentence":"Meaning: Utensils are simple tools used to cook or eat food, like spoons, forks, knives, and pans.\n\nIllustration idea: Draw a spoon, fork, knife, and a frying pan neatly arranged together."
-  },
-  {
-    "Hindi":"लड़की",
-    "English":"Girl",
-    "Garhwali":"छोरी",
-    "Kumaoni":"च्यैली",
-    "Jaunsari":"चौऊटी",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1MgowYwD2hXqIWLaXK-g1IA9aGIzkoAi-\/view?usp=drivesdk",
-    "Sentence":"Girl: a female child or young person.\n\nIllustration idea: Draw a smiling school-age child with pigtails holding a backpack."
-  },
-  {
-    "Hindi":"इधर आओ",
-    "English":"Come Here",
-    "Garhwali":"इने \/ यख औ",
-    "Kumaoni":"यों आ",
-    "Jaunsari":"उन्ड आओ",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/174Ndx-aGuh9hUvp2Qw9CEVRsIwNE46-r\/view?usp=drivesdk",
-    "Sentence":"Meaning: A request telling someone to move toward the speaker, to this spot.\n\nIllustration idea: A person making a beckoning hand gesture while saying “Come here,” and another person stepping closer."
-  },
-  {
-    "Hindi":"नमक",
-    "English":"Salt",
-    "Garhwali":"लोण",
-    "Kumaoni":"लूण",
-    "Jaunsari":"नून",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1EwZYSrPc3YWsI8meCWFdNoPD3iFsfwSP\/view?usp=drivesdk",
-    "Sentence":"Salt: A white mineral that makes food taste better and helps keep food from spoiling.\n\nIllustration idea: A hand sprinkling white grains from a shaker onto fries."
-  },
-  {
-    "Hindi":"खेत",
-    "English":"Field",
-    "Garhwali":"पंगाडा",
-    "Kumaoni":"डोखरो",
-    "Jaunsari":"डोखरे",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1HWeERBndiN0Oxd_mI7TtI4cK8h3V0dlc\/view?usp=drivesdk",
-    "Sentence":"Meaning: A wide, open area of land, often covered with grass or crops.\n\nIllustration idea: Show a large green expanse with rows of crops stretching toward the horizon."
-  },
-  {
-    "Hindi":"सर दर्द",
-    "English":"Headache",
-    "Garhwali":"मुडासू",
-    "Kumaoni":"मुनाव पीड़",
-    "Jaunsari":"मुण्डाअ",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1nFWL6bme1KQvHiepTc3iEP6EcWQHhVi1\/view?usp=drivesdk",
-    "Sentence":"Headache: a pain or pressure in your head.\n\nIllustration idea: A person holding their head, with zigzag lines around the temples to show pain."
-  },
-  {
-    "Hindi":"गिरना",
-    "English":"Fall",
-    "Garhwali":"लमडण",
-    "Kumaoni":"धुरिण",
-    "Jaunsari":"रूडी",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1bvNt8Il24EOIyCTlgzKKN0eVUOvZ9FNO\/view?usp=drivesdk",
-    "Sentence":"Fall: to move or drop from a higher place to a lower place, often by accident or because of gravity.\n\nIllustration idea: A single leaf dropping from a tree to the ground."
-  },
-  {
-    "Hindi":"छोटे बच्चे",
-    "English":"Children",
-    "Garhwali":"नौना \/ नौनी",
-    "Kumaoni":"नानतिन",
-    "Jaunsari":"नादरे लाडकोरे",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1fBLCEcNxiHV7XJ4CJiTQ5RdW6ZQanXBN\/view?usp=drivesdk",
-    "Sentence":"Children: young people who are still growing and not adults yet.\nIllustration idea: Draw kids playing together in a park."
-  },
-  {
-    "Hindi":"बुजुर्ग",
-    "English":"Elders",
-    "Garhwali":"दाना \/ बुड्या",
-    "Kumaoni":"बुजर्ग",
-    "Jaunsari":"N\/A",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1Iy1y2FYnbu8BfBXrtr0w6MxsdIt3iWwV\/view?usp=drivesdk",
-    "Sentence":"Elders: older people in a family or community, often respected for their experience and wisdom.\n\nIllustration idea: Draw a gray-haired person kindly advising a child while pointing to a book."
-  },
-  {
-    "Hindi":"बुखार",
-    "English":"Fever",
-    "Garhwali":"जर",
-    "Kumaoni":"बुखार",
-    "Jaunsari":"जअर",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1uo0L9Esj9MVuwGBX_hsVm2KgLo49ox1H\/view?usp=drivesdk",
-    "Sentence":"Meaning: A fever is when your body temperature is higher than normal, usually from illness. You may feel hot, sweaty, or get chills.\n\nIllustration idea: Show a person with a thermometer in their mouth showing a high (red) reading."
-  },
-  {
-    "Hindi":"शोरबा",
-    "English":"Soup",
-    "Garhwali":"झोल",
-    "Kumaoni":"झोल \/ तरी",
-    "Jaunsari":"ताल",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1is_3r2djXneJddPmcLihRODfMzdow0I4\/view?usp=drivesdk",
-    "Sentence":"Soup: A hot, liquid food made by cooking ingredients like vegetables or meat in water or broth.\n\nIllustration idea: A steaming bowl with a spoon, showing visible pieces of carrot and noodles."
-  },
-  {
-    "Hindi":"याद",
-    "English":"Remembrance",
-    "Garhwali":"खुद",
-    "Kumaoni":"नरे",
-    "Jaunsari":"आप्पू",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1LypITiNxMTaTD6XqrD2J1sUOkzjPujLR\/view?usp=drivesdk",
-    "Sentence":"Remembrance: the act of remembering and honoring someone or something from the past.\nIllustrate: a single lit candle beside a framed photograph."
-  },
-  {
-    "Hindi":"छोटी नदी",
-    "English":"Rivulet",
-    "Garhwali":"गाड",
-    "Kumaoni":"गाड़",
-    "Jaunsari":"खाड़ा",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1fTQ1sDyI8IH-ATIeL7p7-88hcqHx9w_v\/view?usp=drivesdk",
-    "Sentence":"Rivulet: a very small stream of water.\n\nIllustration idea: Show a thin trickle of water winding through grass after a rain."
-  },
-  {
-    "Hindi":"चालाक",
-    "English":"Clever",
-    "Garhwali":"चकडेत",
-    "Kumaoni":"होशियार",
-    "Jaunsari":"चलाक",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1OurWwWWS5L6jQyMHcjmmNKW1c3ysHTaX\/view?usp=drivesdk",
-    "Sentence":"Clever: quick-thinking and inventive; good at finding smart solutions.\n\nIllustration idea: A kid uses a paperclip to fix a broken backpack zipper."
-  },
-  {
-    "Hindi":"पाजामा",
-    "English":"Pajama",
-    "Garhwali":"सुलार",
-    "Kumaoni":"पैजाम",
-    "Jaunsari":"N\/A",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/14LXfMPk-9XCiftqpQ9MzXexZVnJQgPxz\/view?usp=drivesdk",
-    "Sentence":"Pajama: Comfortable clothes worn for sleeping, usually a matching shirt and pants.\n\nIllustration idea: Draw a folded pajama set (button-up shirt and pants) with a moon-and-stars pattern beside a pillow."
-  },
-  {
-    "Hindi":"पठिया",
-    "English":"Slate",
-    "Garhwali":"पठाल",
-    "Kumaoni":"पाटीला",
-    "Jaunsari":"छयिण",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1mIaAUJcyY5r0xFdviRzbdQUuaW2yA69-\/view?usp=drivesdk",
-    "Sentence":"Slate: a flat, gray rock that splits into thin sheets, used for roofs and tiles.\n\nIllustration idea: Draw a gray roof covered with overlapping slate tiles."
-  },
-  {
-    "Hindi":"मेहमान",
-    "English":"Guests",
-    "Garhwali":"पौना",
-    "Kumaoni":"मेहमान \/ पौड़",
-    "Jaunsari":"पाऊणे",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1ocBa1dqYbby1dvdyd7wAI8RSqr0dvzXy\/view?usp=drivesdk",
-    "Sentence":"Guests: people invited to visit or stay at a place, like your home or an event.\n\nIllustration idea: A host opening the front door to welcome smiling visitors."
-  },
-  {
-    "Hindi":"अचानक",
-    "English":"Suddenly",
-    "Garhwali":"भक्क",
-    "Kumaoni":"भक्क",
-    "Jaunsari":"एकाणि",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1tDYRYCepuwleu8PLJf0f97149lDwOhrK\/view?usp=drivesdk",
-    "Sentence":"Suddenly: happening very quickly and without warning.\n\nIllustration idea: A quiet balloon instantly popping with a loud “bang.”"
-  },
-  {
-    "Hindi":"सोया",
-    "English":"Soyabean",
-    "Garhwali":"भट्ट",
-    "Kumaoni":"भट्ट",
-    "Jaunsari":"लोबिये \/ भरट",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1DTdHATbXb-WhFsLARjOrR8LnA_N6jswh\/view?usp=drivesdk",
-    "Sentence":"Soyabean: an edible bean from the soy plant, rich in protein, used for food products and oil.\n\nIllustration idea: Show a green pod split open with the pale beans inside."
-  },
-  {
-    "Hindi":"खरोंच",
-    "English":"Scratch",
-    "Garhwali":"चरोड़ा",
-    "Kumaoni":"उचेड़ना",
-    "Jaunsari":"झिरा \/ खल्या रोहो",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/1yFZcPNNgPigoXWkQxc5vPgpj53i90NI7\/view?usp=drivesdk",
-    "Sentence":"Scratch: to rub or scrape the skin or a surface with something sharp (like a fingernail), often to stop an itch, sometimes leaving a small mark.\n\nIllustration idea: A hand scratching an itchy forearm."
-  },
-  {
-    "Hindi":"संगत",
-    "English":"Company",
-    "Garhwali":"दगडा",
-    "Kumaoni":"दगड",
-    "Jaunsari":"शागड़",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/16vABKg8CalC31gb51vBnEkBlWYgCxArf\/view?usp=drivesdk",
-    "Sentence":"Company: a business organization; also, the people you spend time with.\nIllustration idea: An office building with a logo on its facade."
-  },
-  {
-    "Hindi":"कल (बीता हुआ)",
-    "English":"Yesterday",
-    "Garhwali":"ब्याली",
-    "Kumaoni":"परबी",
-    "Jaunsari":"बिया",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/16QoEDtSoAyepEvzWhKMzIMMStgIx5YOF\/view?usp=drivesdk",
-    "Sentence":"Meaning: The day before today.\n\nIllustration idea: A calendar showing today highlighted, with the previous day labeled “yesterday.”"
-  },
-  {
-    "Hindi":"कल (आने वाला)",
-    "English":"Tomorrow",
-    "Garhwali":"भोल",
-    "Kumaoni":"भोल",
-    "Jaunsari":"दोतिया",
-    "Image Link":"https:\/\/drive.google.com\/file\/d\/19rrMu-elL7YYqqnpYGqj2TUNJQT5RnnN\/view?usp=drivesdk",
-    "Sentence":"Tomorrow: the day after today.\nIllustration idea: A calendar with today circled and an arrow pointing to the next day labeled “Tomorrow.”"
+    "Hindi": "चोटी",
+    "English": "Pony tail",
+    "Garhwali": "चुफली",
+    "Kumaoni": "लटी",
+    "Jaunsari": "बेंटूली"
+  },
+  {
+    "Hindi": "बेचारा",
+    "English": "Poor fellow",
+    "Garhwali": "लाटा",
+    "Kumaoni": "लाट",
+    "Jaunsari": "रांइडा"
+  },
+  {
+    "Hindi": "दौड़ना",
+    "English": "Run",
+    "Garhwali": "दनक्णु",
+    "Kumaoni": "दोड़न",
+    "Jaunsari": "दौड"
+  },
+  {
+    "Hindi": "कहाँ",
+    "English": "Where",
+    "Garhwali": "क्ख",
+    "Kumaoni": "काँ",
+    "Jaunsari": "कोके"
+  },
+  {
+    "Hindi": "यहाँ",
+    "English": "Here",
+    "Garhwali": "यख",
+    "Kumaoni": "इख / यों",
+    "Jaunsari": "ऐतके"
+  },
+  {
+    "Hindi": "वहाँ",
+    "English": "There",
+    "Garhwali": "वख",
+    "Kumaoni": "वों",
+    "Jaunsari": "तै के"
+  },
+  {
+    "Hindi": "मेरा",
+    "English": "My",
+    "Garhwali": "मेरू",
+    "Kumaoni": "म्यर",
+    "Jaunsari": "मेरो"
+  },
+  {
+    "Hindi": "तेरा",
+    "English": "Your",
+    "Garhwali": "तेरू",
+    "Kumaoni": "तुमर",
+    "Jaunsari": "तेरा"
+  },
+  {
+    "Hindi": "जाना",
+    "English": "Go",
+    "Garhwali": "जाणु",
+    "Kumaoni": "जाण",
+    "Jaunsari": "पुडाजा"
+  },
+  {
+    "Hindi": "आना",
+    "English": "Come",
+    "Garhwali": "औणु",
+    "Kumaoni": "अण",
+    "Jaunsari": "उडाआ"
+  },
+  {
+    "Hindi": "रोना",
+    "English": "Cry",
+    "Garhwali": "बिलबिलाट / रोण",
+    "Kumaoni": "रूण",
+    "Jaunsari": "रूणों"
+  },
+  {
+    "Hindi": "सुगंध",
+    "English": "Flavour",
+    "Garhwali": "मिठान",
+    "Kumaoni": "खुशबू",
+    "Jaunsari": "धांद"
+  },
+  {
+    "Hindi": "सड़ने की गंध",
+    "English": "Foul Smell",
+    "Garhwali": "सेंडयान",
+    "Kumaoni": "बदबू",
+    "Jaunsari": "गडाण"
+  },
+  {
+    "Hindi": "दोस्त",
+    "English": "Friend",
+    "Garhwali": "दगड्या",
+    "Kumaoni": "मितुर",
+    "Jaunsari": "साथी"
+  },
+  {
+    "Hindi": "साथ",
+    "English": "Together",
+    "Garhwali": "दगडी",
+    "Kumaoni": "दगड",
+    "Jaunsari": "सापेची"
+  },
+  {
+    "Hindi": "छोटी नदी",
+    "English": "Stream",
+    "Garhwali": "गाड / गदेरू",
+    "Kumaoni": "गध्यर",
+    "Jaunsari": "नादरी गाड"
+  },
+  {
+    "Hindi": "पहाड़ की छोटी",
+    "English": "Hill Peak",
+    "Garhwali": "डांडा",
+    "Kumaoni": "डान",
+    "Jaunsari": "ऊँचा टिमा"
+  },
+  {
+    "Hindi": "गुफा",
+    "English": "Cave",
+    "Garhwali": "उड्यार",
+    "Kumaoni": "बयार",
+    "Jaunsari": "आडार"
+  },
+  {
+    "Hindi": "नीचे",
+    "English": "Down",
+    "Garhwali": "मूडी",
+    "Kumaoni": "मूडी",
+    "Jaunsari": "उधो"
+  },
+  {
+    "Hindi": "उपर",
+    "English": "Up",
+    "Garhwali": "ऐंच / माथी",
+    "Kumaoni": "मथिन / माथ",
+    "Jaunsari": "ऊबो"
+  },
+  {
+    "Hindi": "अकेला",
+    "English": "Alone",
+    "Garhwali": "यखूली",
+    "Kumaoni": "यकले",
+    "Jaunsari": "एलेका"
+  },
+  {
+    "Hindi": "गाँव",
+    "English": "Village",
+    "Garhwali": "गौं",
+    "Kumaoni": "गौं",
+    "Jaunsari": "गौंव"
+  },
+  {
+    "Hindi": "सिर",
+    "English": "Head",
+    "Garhwali": "कपाल / मुंड",
+    "Kumaoni": "कपाल",
+    "Jaunsari": "मुंड"
+  },
+  {
+    "Hindi": "शादी",
+    "English": "Marriage",
+    "Garhwali": "ब्यो",
+    "Kumaoni": "ब्या",
+    "Jaunsari": "जोजोड़ा"
+  },
+  {
+    "Hindi": "औरत",
+    "English": "Women",
+    "Garhwali": "जनानी",
+    "Kumaoni": "इथत्री",
+    "Jaunsari": "बेट कुड़ी"
+  },
+  {
+    "Hindi": "गर्मी के दिन",
+    "English": "Hot Day",
+    "Garhwali": "रुड्या दिन",
+    "Kumaoni": "गर्म दिन",
+    "Jaunsari": "रूड़ा के दुस"
+  },
+  {
+    "Hindi": "जंगल",
+    "English": "Forest",
+    "Garhwali": "बण",
+    "Kumaoni": "जंगल",
+    "Jaunsari": "बोण"
+  },
+  {
+    "Hindi": "आकलन",
+    "English": "Estimate",
+    "Garhwali": "पैमायश",
+    "Kumaoni": "अन्ताज",
+    "Jaunsari": "अणदाज"
+  },
+  {
+    "Hindi": "प्रसंग",
+    "English": "Context",
+    "Garhwali": "प्रसंग",
+    "Kumaoni": "चर्चा",
+    "Jaunsari": "बौलरा"
+  },
+  {
+    "Hindi": "वितरण",
+    "English": "Distribution",
+    "Garhwali": "बाट्णु",
+    "Kumaoni": "बाटणबाटनो",
+    "Jaunsari": "व्यौरा"
+  },
+  {
+    "Hindi": "संदेश",
+    "English": "Message",
+    "Garhwali": "रैबार",
+    "Kumaoni": "जुवाब",
+    "Jaunsari": "खबर"
+  },
+  {
+    "Hindi": "अभी",
+    "English": "Now",
+    "Garhwali": "अब्भी",
+    "Kumaoni": "अत्ते",
+    "Jaunsari": "एभी"
+  },
+  {
+    "Hindi": "सचमुच",
+    "English": "Really",
+    "Garhwali": "सच माँ",
+    "Kumaoni": "सचि में",
+    "Jaunsari": "साचेको"
+  },
+  {
+    "Hindi": "ओह नहीं",
+    "English": "Oh No",
+    "Garhwali": "न रे ना",
+    "Kumaoni": "ना",
+    "Jaunsari": "नाले"
+  },
+  {
+    "Hindi": "क्या",
+    "English": "What",
+    "Garhwali": "क्या च",
+    "Kumaoni": "के",
+    "Jaunsari": "का"
+  },
+  {
+    "Hindi": "क्यों",
+    "English": "Why",
+    "Garhwali": "किले",
+    "Kumaoni": "किले",
+    "Jaunsari": "काई"
+  },
+  {
+    "Hindi": "हो गया",
+    "English": "Done",
+    "Garhwali": "ह्वे गे",
+    "Kumaoni": "गेहेगो",
+    "Jaunsari": "हमीगो"
+  },
+  {
+    "Hindi": "जल्दी",
+    "English": "Hurry",
+    "Garhwali": "सरपट",
+    "Kumaoni": "जल्द",
+    "Jaunsari": "झठ"
+  },
+  {
+    "Hindi": "औरत",
+    "English": "Lady",
+    "Garhwali": "कज्याण",
+    "Kumaoni": "सैनी",
+    "Jaunsari": "बेटकुड़ी"
+  },
+  {
+    "Hindi": "आदमी",
+    "English": "Man",
+    "Garhwali": "आदिम",
+    "Kumaoni": "मैंस",
+    "Jaunsari": "मरद"
+  },
+  {
+    "Hindi": "कभी नही",
+    "English": "Never",
+    "Garhwali": "कब्बी ना",
+    "Kumaoni": "कभैं ना",
+    "Jaunsari": "कदीना"
+  },
+  {
+    "Hindi": "लड़का",
+    "English": "Boy",
+    "Garhwali": "छोरा",
+    "Kumaoni": "लौड़ / चेला",
+    "Jaunsari": "चौऊटा"
+  },
+  {
+    "Hindi": "सो रहा है",
+    "English": "Sleeping",
+    "Garhwali": "सीणु",
+    "Kumaoni": "पड़ छु",
+    "Jaunsari": "सूती ये ले"
+  },
+  {
+    "Hindi": "वहा जाओ",
+    "English": "Go There",
+    "Garhwali": "फुंड / वख जा",
+    "Kumaoni": "वों जा",
+    "Jaunsari": "पूंड्डे जाओ"
+  },
+  {
+    "Hindi": "चेहरा",
+    "English": "Face",
+    "Garhwali": "मुक्क",
+    "Kumaoni": "मुखड़",
+    "Jaunsari": "मू"
+  },
+  {
+    "Hindi": "चूहा",
+    "English": "Rat",
+    "Garhwali": "मुस्सु",
+    "Kumaoni": "मूसा",
+    "Jaunsari": "मुशा"
+  },
+  {
+    "Hindi": "बर्तन",
+    "English": "Utensils",
+    "Garhwali": "भांडा",
+    "Kumaoni": "भांड",
+    "Jaunsari": "भांडे"
+  },
+  {
+    "Hindi": "लड़की",
+    "English": "Girl",
+    "Garhwali": "छोरी",
+    "Kumaoni": "च्यैली",
+    "Jaunsari": "चौऊटी"
+  },
+  {
+    "Hindi": "इधर आओ",
+    "English": "Come Here",
+    "Garhwali": "इने / यख औ",
+    "Kumaoni": "यों आ",
+    "Jaunsari": "उन्ड आओ"
+  },
+  {
+    "Hindi": "नमक",
+    "English": "Salt",
+    "Garhwali": "लोण",
+    "Kumaoni": "लूण",
+    "Jaunsari": "नून"
+  },
+  {
+    "Hindi": "खेत",
+    "English": "Field",
+    "Garhwali": "पंगाडा",
+    "Kumaoni": "डोखरो",
+    "Jaunsari": "डोखरे"
+  },
+  {
+    "Hindi": "सर दर्द",
+    "English": "Headache",
+    "Garhwali": "मुडारू",
+    "Kumaoni": "मुनाव पीड़",
+    "Jaunsari": "मुण्डाअ"
+  },
+  {
+    "Hindi": "गिरना",
+    "English": "Fall",
+    "Garhwali": "लमडण",
+    "Kumaoni": "धुरिण",
+    "Jaunsari": "रूडी"
+  },
+  {
+    "Hindi": "छोटे बच्चे",
+    "English": "Children",
+    "Garhwali": "नौना / नौनी",
+    "Kumaoni": "नानतिन",
+    "Jaunsari": "नादरे लाडकोरे"
+  },
+  {
+    "Hindi": "बुजुर्ग",
+    "English": "Elders",
+    "Garhwali": "दाना / बुड्या",
+    "Kumaoni": "बुड",
+    "Jaunsari": "बा टा"
+  },
+  {
+    "Hindi": "बुखार",
+    "English": "Fever",
+    "Garhwali": "जर",
+    "Kumaoni": "बुखार",
+    "Jaunsari": "जअर"
+  },
+  {
+    "Hindi": "शोरबा",
+    "English": "Soup",
+    "Garhwali": "झोल",
+    "Kumaoni": "झोल / तरी",
+    "Jaunsari": "ताल"
+  },
+  {
+    "Hindi": "याद",
+    "English": "Remembrance",
+    "Garhwali": "खुद",
+    "Kumaoni": "नरे",
+    "Jaunsari": "आप्पू"
+  },
+  {
+    "Hindi": "छोटी नदी",
+    "English": "Rivulet",
+    "Garhwali": "गाड",
+    "Kumaoni": "गाड़",
+    "Jaunsari": "खाड़ा"
+  },
+  {
+    "Hindi": "चालाक",
+    "English": "Clever",
+    "Garhwali": "चकडेत",
+    "Kumaoni": "होशियार",
+    "Jaunsari": "चलाक"
+  },
+  {
+    "Hindi": "पाजामा",
+    "English": "Pajama",
+    "Garhwali": "सुलार",
+    "Kumaoni": "पैजाम",
+    "Jaunsari": "पैजामा"
+  },
+  {
+    "Hindi": "पठिया",
+    "English": "Slate",
+    "Garhwali": "पठाल",
+    "Kumaoni": "पाटीला",
+    "Jaunsari": "छयिण"
+  },
+  {
+    "Hindi": "मेहमान",
+    "English": "Guests",
+    "Garhwali": "पौना",
+    "Kumaoni": "मेहमान / पौड़",
+    "Jaunsari": "पाऊणे"
+  },
+  {
+    "Hindi": "अचानक",
+    "English": "Suddenly",
+    "Garhwali": "भक्क",
+    "Kumaoni": "भक्क",
+    "Jaunsari": "एकाणि"
+  },
+  {
+    "Hindi": "सोया",
+    "English": "Soyabean",
+    "Garhwali": "भट्ट",
+    "Kumaoni": "भट्ट",
+    "Jaunsari": "लोबिये / भरट"
+  },
+  {
+    "Hindi": "खरोंच",
+    "English": "Scratch",
+    "Garhwali": "चरोड़ा",
+    "Kumaoni": "उचेड़ना",
+    "Jaunsari": "झिरा / खल्या रोहो"
+  },
+  {
+    "Hindi": "संगत",
+    "English": "Company",
+    "Garhwali": "दगडा",
+    "Kumaoni": "दगड",
+    "Jaunsari": "शागड़"
+  },
+  {
+    "Hindi": "कल (बीता हुआ)",
+    "English": "Yesterday",
+    "Garhwali": "ब्याली",
+    "Kumaoni": "परबी",
+    "Jaunsari": "बिया"
+  },
+  {
+    "Hindi": "कल (आने वाला)",
+    "English": "Tomorrow",
+    "Garhwali": "भोल",
+    "Kumaoni": "भोल",
+    "Jaunsari": "दोतिया"
   }
 ]

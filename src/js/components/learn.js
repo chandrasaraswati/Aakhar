@@ -135,12 +135,30 @@ function showCurrentCard() {
   imgEl.src = getImagePath(item.English);
   imgEl.alt = item.English;
   
+  // Check for special "Number" or "Letter" keys
+  let specialRowHtml = '';
+  if (item.Number) {
+    specialRowHtml = `
+      <tr class="special-row">
+        <td>Number</td>
+        <td>${item.Number}</td>
+      </tr>
+    `;
+  } else if (item.Letter) {
+    specialRowHtml = `
+      <tr class="special-row">
+        <td>Letter</td>
+        <td>${item.Letter}</td>
+      </tr>
+    `;
+  }
+
   // Update Translations
-  // Using a table for clean alignment
+  // We will inject the specialRowHtml at the top of the table
   translationsEl.innerHTML = `
     <table class="translations-table">
       <tbody>
-        <tr>
+        ${specialRowHtml} <tr>
           <td>English</td>
           <td>${item.English}</td>
         </tr>

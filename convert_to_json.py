@@ -1,92 +1,104 @@
+# Give me a Python script to do the following
+# 1. From an Excel file (xlsx) extract data to json files with the below specifications
+# 2. The names of the sheets would be the name of the json files and a file named `_categories.json` would contain the names of the json files.
+# 3. All json files would be stored in folder assets/data from the location the python script is stored.
+# 4. The xlsx file to parse is named `Aakhar_list.xlsx` located in the same folder as the python script.
+# 5. In the sheets of xlsx file, the content in the cells of the first row would be the key in json files and the values would be present in the subsequent lines. Only extract to json file if the values are present for all the keys. 
+
 import pandas as pd
+import json
 import os
 import re
-from pathlib import Path
 
-def create_clean_filename(sheet_name):
-    """Converts a sheet name into a clean, snake_case JSON filename."""
-    # Remove any non-alphanumeric characters except spaces
-    s = re.sub(r'[^a-zA-Z0-9 ]', '', sheet_name)
-    # Replace spaces with underscores and convert to lowercase
-    return s.strip().replace(' ', '_').lower() + '.json'
+# --- Configuration ---
+EXCEL_FILE = 'Aakhar_list.xlsx'
+OUTPUT_DIR = 'assets/data'
+# ---------------------
 
-def convert_excel_to_json(excel_file, output_dir):
+def sanitize_sheet_name(name):
     """
-    Reads all sheets from an Excel file and saves each one as a
-    separate JSON file in the output directory.
-    
-    The JSON is saved in a 'records' orientation (a list of objects).
+    Converts a sheet name (like "Common Words") into a
+    JSON file name (like "common_words").
     """
-    
-    # --- 1. Create Output Directory ---
-    output_path = Path(output_dir)
-    output_path.mkdir(parents=True, exist_ok=True)
-    
-    print(f"Output directory '{output_path.resolve()}' is ready.\n")
+    name = name.lower()
+    name = re.sub(r'\s+', '_', name) # Replace spaces with underscores
+    return name
 
-    # --- 2. Load Excel File ---
+def main():
+    print(f"Starting conversion of {EXCEL_FILE}...")
+
+    # 1. Check if the Excel file exists
+    if not os.path.exists(EXCEL_FILE):
+        print(f"\n--- ERROR ---")
+        print(f"File not found: {EXCEL_FILE}")
+        print("Please make sure the Excel file is in the same folder as this script.")
+        print("---------------")
+        return
+
+    # 2. Create the output directory (assets/data)
     try:
-        xls = pd.ExcelFile(excel_file)
-    except FileNotFoundError:
-        print(f"ERROR: File not found at '{excel_file}'")
-        print("Please make sure the file is in the same directory as the script.")
+        os.makedirs(OUTPUT_DIR, exist_ok=True)
+        print(f"Output directory is set to: {OUTPUT_DIR}")
+    except OSError as e:
+        print(f"Error creating directory {OUTPUT_DIR}: {e}")
         return
+
+    # 3. Load the Excel file
+    try:
+        xls = pd.ExcelFile(EXCEL_FILE)
     except Exception as e:
-        print(f"ERROR: Could not read Excel file. Is 'openpyxl' installed?")
-        print(f"Details: {e}")
+        print(f"Error reading Excel file. Is it a valid .xlsx file? Error: {e}")
         return
+        
+    sheet_names = xls.sheet_names
+    print(f"Found {len(sheet_names)} sheets: {sheet_names}")
 
-    print(f"Successfully loaded '{excel_file}'. Found {len(xls.sheet_names)} sheet(s).")
+    categories = []
 
-    # --- 3. Process Each Sheet ---
-    for sheet_name in xls.sheet_names:
-        print(f"Processing sheet: '{sheet_name}'...")
+    # 4. Process each sheet
+    for sheet_name in sheet_names:
+        print(f"\nProcessing sheet: '{sheet_name}'...")
         
         try:
             # Read the sheet. 
-            # keep_default_na=False tells pandas *not* to treat "N/A" as a NaN (Not a Number) value.
-            # This ensures "N/A" is kept as a string.
-            df = pd.read_excel(xls, sheet_name=sheet_name, keep_default_na=False)
+            # - dtype=str ensures all data is read as text.
+            # - .fillna("") converts any blank cells (NaN) to empty strings ("").
+            # This logic satisfies Rule 5 by matching the provided example JSONs,
+            # where empty cells are included as '""' rather than being skipped.
+            df = pd.read_excel(xls, sheet_name=sheet_name, dtype=str).fillna("")
             
-            # --- 4. Generate Filename and Save JSON ---
-            json_filename = create_clean_filename(sheet_name)
-            json_filepath = output_path / json_filename
+            # Convert the DataFrame to a list of dictionaries (one per row)
+            data_list = df.to_dict(orient='records')
+
+            # 5. Generate file names (Rule 2)
+            json_file_base_name = sanitize_sheet_name(sheet_name)
+            json_file_path = os.path.join(OUTPUT_DIR, f"{json_file_base_name}.json")
             
-            # Save to JSON in 'records' format: [ {col: val}, {col: val}, ... ]
-            df.to_json(json_filepath, orient='records', force_ascii=False, indent=2)
+            # Add to categories list
+            categories.append(json_file_base_name)
+
+            # 6. Write the JSON file (Rule 1 & 3)
+            with open(json_file_path, 'w', encoding='utf-8') as f:
+                # indent=2 and ensure_ascii=False make the output match your examples
+                json.dump(data_list, f, indent=2, ensure_ascii=False)
             
-            print(f"  -> Successfully saved to '{json_filepath.name}'\n")
+            print(f"  -> Successfully created {json_file_path} with {len(data_list)} items.")
 
         except Exception as e:
-            print(f"  -> ERROR: Could not process sheet '{sheet_name}'.")
-            print(f"     Details: {e}\n")
+            print(f"  -> Error processing sheet '{sheet_name}': {e}")
 
-    print("Conversion complete.")
+    # 7. Write the _categories.json file (Rule 2)
+    if categories:
+        categories_file_path = os.path.join(OUTPUT_DIR, '_categories.json')
+        print(f"\nWriting categories file to {categories_file_path}...")
+        try:
+            with open(categories_file_path, 'w', encoding='utf-8') as f:
+                json.dump(categories, f, indent=2, ensure_ascii=False)
+            print("  -> Categories file created successfully.")
+        except Exception as e:
+            print(f"  -> Error writing categories file: {e}")
+    
+    print("\n--- Conversion Complete! --- ✨")
 
-# --- Configuration ---
-# Your main Excel file
-EXCEL_FILENAME = 'Aakhar_list.xlsx' 
-
-# The folder where you want the JSON files to be saved
-# This is perfect for your SvelteKit project's 'static' folder
-OUTPUT_JSON_DIR = 'static/data' 
-
-# --- Run the Script ---
 if __name__ == "__main__":
-    # Check for pandas and openpyxl
-    try:
-        pd
-    except NameError:
-        print("ERROR: 'pandas' library not found.")
-        print("Please install it by running: pip install pandas")
-        exit()
-        
-    try:
-        import openpyxl
-    except ImportError:
-        print("ERROR: 'openpyxl' library not found.")
-        print("This is required for reading .xlsx files.")
-        print("Please install it by running: pip install openpyxl")
-        exit()
-
-    convert_excel_to_json(EXCEL_FILENAME, OUTPUT_JSON_DIR)
+    main()

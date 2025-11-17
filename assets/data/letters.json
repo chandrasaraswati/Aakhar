@@ -1,0 +1,354 @@
+[
+  {
+    "Letter": "अ",
+    "Hindi": "अमरूद ",
+    "English": "Guava",
+    "Garhwali": "अमरूद ",
+    "Kumaoni": "अमरूद ",
+    "Jaunsari": "अमरूद "
+  },
+  {
+    "Letter": "आ",
+    "Hindi": "आम ",
+    "English": "Mango",
+    "Garhwali": "आम ",
+    "Kumaoni": "आम ",
+    "Jaunsari": "आम "
+  },
+  {
+    "Letter": "इ",
+    "Hindi": "इमली",
+    "English": "Tamarind",
+    "Garhwali": "इमली",
+    "Kumaoni": "इमली",
+    "Jaunsari": "इमली"
+  },
+  {
+    "Letter": "ई",
+    "Hindi": "ईख",
+    "English": "Sugarcane",
+    "Garhwali": "गन्ना ",
+    "Kumaoni": "ईख",
+    "Jaunsari": "गने"
+  },
+  {
+    "Letter": "उ",
+    "Hindi": "उल्लू",
+    "English": "Owl",
+    "Garhwali": "उल्लू",
+    "Kumaoni": "उल्लू",
+    "Jaunsari": "उल्लू"
+  },
+  {
+    "Letter": "ऊ",
+    "Hindi": "ऊँट",
+    "English": "Camel",
+    "Garhwali": "ऊँट",
+    "Kumaoni": "ऊँट",
+    "Jaunsari": "ऊँट"
+  },
+  {
+    "Letter": "ऋ",
+    "Hindi": "ऋषि",
+    "English": "Sage",
+    "Garhwali": "ऋषि",
+    "Kumaoni": "ऋषि",
+    "Jaunsari": "ऋषि"
+  },
+  {
+    "Letter": "ए",
+    "Hindi": "एडी",
+    "English": "Heel",
+    "Garhwali": "एडी",
+    "Kumaoni": "एडी",
+    "Jaunsari": "पईन "
+  },
+  {
+    "Letter": "ऐ",
+    "Hindi": "ऐनक",
+    "English": "Spectacle",
+    "Garhwali": "ऐनक",
+    "Kumaoni": "चश्मा ",
+    "Jaunsari": "आईना "
+  },
+  {
+    "Letter": "ओ",
+    "Hindi": "ओनम",
+    "English": "Onam a festival",
+    "Garhwali": "ओनम",
+    "Kumaoni": "ओनम",
+    "Jaunsari": "ओनम"
+  },
+  {
+    "Letter": "औ",
+    "Hindi": "औरत",
+    "English": "Woman",
+    "Garhwali": "औरत",
+    "Kumaoni": "औरत",
+    "Jaunsari": "औरत"
+  },
+  {
+    "Letter": "अं",
+    "Hindi": "अंगूर",
+    "English": "Grapes",
+    "Garhwali": "अंगूर",
+    "Kumaoni": "अंगूर",
+    "Jaunsari": "बैट कूड़ी "
+  },
+  {
+    "Letter": "क",
+    "Hindi": "कबूतर",
+    "English": "Piegon",
+    "Garhwali": "कबूतर",
+    "Kumaoni": "कबूतर",
+    "Jaunsari": "कबूतर"
+  },
+  {
+    "Letter": "ख",
+    "Hindi": "खजूर",
+    "English": "Dates",
+    "Garhwali": "खजूर",
+    "Kumaoni": "खजूर",
+    "Jaunsari": "खजूर"
+  },
+  {
+    "Letter": "ग",
+    "Hindi": "गमला",
+    "English": "Flower pot",
+    "Garhwali": "गमला",
+    "Kumaoni": "गमला",
+    "Jaunsari": "गमला"
+  },
+  {
+    "Letter": "घ",
+    "Hindi": "घड़ी",
+    "English": "Watch",
+    "Garhwali": "घड़ी",
+    "Kumaoni": "घड़ी",
+    "Jaunsari": "घड़ी"
+  },
+  {
+    "Letter": "च",
+    "Hindi": "चम्मच",
+    "English": "Spoon",
+    "Garhwali": "चम्मच",
+    "Kumaoni": "चम्मच",
+    "Jaunsari": "चम्मच"
+  },
+  {
+    "Letter": "छ",
+    "Hindi": "छत",
+    "English": "Roof",
+    "Garhwali": "छत",
+    "Kumaoni": "छत",
+    "Jaunsari": "छत"
+  },
+  {
+    "Letter": "ज",
+    "Hindi": "जहाज़",
+    "English": "Ship",
+    "Garhwali": "जहाज़",
+    "Kumaoni": "जहाज़",
+    "Jaunsari": "जहाज़"
+  },
+  {
+    "Letter": "झ",
+    "Hindi": "झंडा",
+    "English": "Flag",
+    "Garhwali": "झंडा",
+    "Kumaoni": "झंडा",
+    "Jaunsari": "झंडा"
+  },
+  {
+    "Letter": "ट",
+    "Hindi": "टमाटर",
+    "English": "Tomato",
+    "Garhwali": "टमाटर",
+    "Kumaoni": "टमाटर",
+    "Jaunsari": "टमाटर"
+  },
+  {
+    "Letter": "ठ",
+    "Hindi": "ठठेरा",
+    "English": "Coppersmith",
+    "Garhwali": "ठठेरा",
+    "Kumaoni": "ठठेरा",
+    "Jaunsari": "ठठेरा"
+  },
+  {
+    "Letter": "ड",
+    "Hindi": "डमरू",
+    "English": "Two headed drum",
+    "Garhwali": "डमरू",
+    "Kumaoni": "डमरू",
+    "Jaunsari": "डमरू"
+  },
+  {
+    "Letter": "त",
+    "Hindi": "तरबूज",
+    "English": "Watermelon",
+    "Garhwali": "तरबूज",
+    "Kumaoni": "तरबूज",
+    "Jaunsari": "तरबूज"
+  },
+  {
+    "Letter": "थ",
+    "Hindi": "थर्मस",
+    "English": "Flask",
+    "Garhwali": "थर्मस",
+    "Kumaoni": "थर्मस",
+    "Jaunsari": "थर्मस"
+  },
+  {
+    "Letter": "द",
+    "Hindi": "दवाई",
+    "English": "Medicine",
+    "Garhwali": "दवाई",
+    "Kumaoni": "पैथ ",
+    "Jaunsari": "जडी"
+  },
+  {
+    "Letter": "ध",
+    "Hindi": "धनुष",
+    "English": "Bow",
+    "Garhwali": "धनुष",
+    "Kumaoni": "धनुष",
+    "Jaunsari": "धनुष"
+  },
+  {
+    "Letter": "न",
+    "Hindi": "नल",
+    "English": "Tap",
+    "Garhwali": "नल",
+    "Kumaoni": "नल",
+    "Jaunsari": "नल"
+  },
+  {
+    "Letter": "प",
+    "Hindi": "पतंग",
+    "English": "Kite",
+    "Garhwali": "पतंग",
+    "Kumaoni": "पतंग",
+    "Jaunsari": "पतंग"
+  },
+  {
+    "Letter": "फ",
+    "Hindi": "फल",
+    "English": "Fruit",
+    "Garhwali": "फल",
+    "Kumaoni": "फल",
+    "Jaunsari": "फडवार "
+  },
+  {
+    "Letter": "ब",
+    "Hindi": "बकरी",
+    "English": "Goat",
+    "Garhwali": "बकरी",
+    "Kumaoni": "बकरी",
+    "Jaunsari": "बकरी"
+  },
+  {
+    "Letter": "भ",
+    "Hindi": "भक्त",
+    "English": "Devotee",
+    "Garhwali": "भक्त",
+    "Kumaoni": "भक्त",
+    "Jaunsari": "भक्त"
+  },
+  {
+    "Letter": "म",
+    "Hindi": "मछली",
+    "English": "Fish",
+    "Garhwali": "मछली",
+    "Kumaoni": "मछली",
+    "Jaunsari": "मछली"
+  },
+  {
+    "Letter": "य",
+    "Hindi": "यज्ञ",
+    "English": "Fire worship (yagya)",
+    "Garhwali": "यज्ञ",
+    "Kumaoni": "यज्ञ",
+    "Jaunsari": "यज्ञ"
+  },
+  {
+    "Letter": "र",
+    "Hindi": "रथ",
+    "English": "Chariot",
+    "Garhwali": "रथ",
+    "Kumaoni": "रथ",
+    "Jaunsari": "रथ"
+  },
+  {
+    "Letter": "ल",
+    "Hindi": "लड़की",
+    "English": "Girl",
+    "Garhwali": "लड़की",
+    "Kumaoni": "लड़की",
+    "Jaunsari": "छौउटी "
+  },
+  {
+    "Letter": "व",
+    "Hindi": "वन",
+    "English": "Forest",
+    "Garhwali": "वन",
+    "Kumaoni": "वन",
+    "Jaunsari": "वन"
+  },
+  {
+    "Letter": "श",
+    "Hindi": "शलगम",
+    "English": "Turnip",
+    "Garhwali": "शलगम",
+    "Kumaoni": "शलगम",
+    "Jaunsari": "शलगम"
+  },
+  {
+    "Letter": "ष",
+    "Hindi": "षष्ठ कोण ",
+    "English": "Hexagon",
+    "Garhwali": "षष्ठ कोण ",
+    "Kumaoni": "षष्ठ कोण ",
+    "Jaunsari": "षष्ठ कोण "
+  },
+  {
+    "Letter": "स",
+    "Hindi": "सब्ज़ी",
+    "English": "Vegetable",
+    "Garhwali": "सब्ज़ी",
+    "Kumaoni": "सब्ज़ी",
+    "Jaunsari": "सब्ज़ी"
+  },
+  {
+    "Letter": "ह",
+    "Hindi": "हथोड़ा",
+    "English": "Hammer",
+    "Garhwali": "हथोड़ा",
+    "Kumaoni": "हथोड़ा",
+    "Jaunsari": "हथोड़ा"
+  },
+  {
+    "Letter": "क्ष",
+    "Hindi": "क्षत्रिय",
+    "English": "Warrior",
+    "Garhwali": "क्षत्रिय",
+    "Kumaoni": "क्षत्रिय",
+    "Jaunsari": "क्षत्रिय"
+  },
+  {
+    "Letter": "त्र",
+    "Hindi": "त्रिशूल",
+    "English": "Trident",
+    "Garhwali": "त्रिशूल",
+    "Kumaoni": "त्रिशूल",
+    "Jaunsari": "त्रिशूल"
+  },
+  {
+    "Letter": "ज्ञ",
+    "Hindi": "ज्ञान",
+    "English": "Knowledge",
+    "Garhwali": "ज्ञान",
+    "Kumaoni": "ज्ञान",
+    "Jaunsari": "अक्ल "
+  }
+]

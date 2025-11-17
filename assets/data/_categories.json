@@ -1,5 +1,7 @@
 [
   "common_words",
   "sentences",
-  "relations"
+  "relations",
+  "letters",
+  "numbers"
 ]

@@ -1,0 +1,802 @@
+[
+  {
+    "Number": "1",
+    "Hindi": "एक",
+    "English": "One",
+    "Garhwali": " यक ",
+    "Kumaoni": "एक",
+    "Jaunsari": "एक"
+  },
+  {
+    "Number": "2",
+    "Hindi": "दो",
+    "English": "Two",
+    "Garhwali": " द्वी ",
+    "Kumaoni": "दो",
+    "Jaunsari": "दो"
+  },
+  {
+    "Number": "3",
+    "Hindi": "तीन",
+    "English": "Three",
+    "Garhwali": "तीन",
+    "Kumaoni": "तीन",
+    "Jaunsari": "तीन"
+  },
+  {
+    "Number": "4",
+    "Hindi": "चार",
+    "English": "Four",
+    "Garhwali": "चार",
+    "Kumaoni": "चार",
+    "Jaunsari": "चार"
+  },
+  {
+    "Number": "5",
+    "Hindi": "पाँच",
+    "English": "Five",
+    "Garhwali": "पाँच",
+    "Kumaoni": "पाँच",
+    "Jaunsari": "पाँच"
+  },
+  {
+    "Number": "6",
+    "Hindi": "छः",
+    "English": "Six",
+    "Garhwali": "छः",
+    "Kumaoni": "छः",
+    "Jaunsari": "छः"
+  },
+  {
+    "Number": "7",
+    "Hindi": "सात",
+    "English": "Seven",
+    "Garhwali": "सात",
+    "Kumaoni": "सात",
+    "Jaunsari": "सात"
+  },
+  {
+    "Number": "8",
+    "Hindi": "आठ",
+    "English": "Eight",
+    "Garhwali": "आठ",
+    "Kumaoni": "आठ",
+    "Jaunsari": "आठ"
+  },
+  {
+    "Number": "9",
+    "Hindi": "नौ",
+    "English": "Nine",
+    "Garhwali": "नौ",
+    "Kumaoni": "नौ",
+    "Jaunsari": "नौ"
+  },
+  {
+    "Number": "10",
+    "Hindi": "दस",
+    "English": "Ten",
+    "Garhwali": "दस",
+    "Kumaoni": "दस",
+    "Jaunsari": "दस"
+  },
+  {
+    "Number": "11",
+    "Hindi": "ग्यारह",
+    "English": "Eleven",
+    "Garhwali": "ग्यारह",
+    "Kumaoni": "गयार ",
+    "Jaunsari": "ग्यारह"
+  },
+  {
+    "Number": "12",
+    "Hindi": "बारह",
+    "English": "Twelve",
+    "Garhwali": "बारह",
+    "Kumaoni": "बारह",
+    "Jaunsari": "बारह"
+  },
+  {
+    "Number": "13",
+    "Hindi": "तेरह",
+    "English": "Thirteen",
+    "Garhwali": "तेरह",
+    "Kumaoni": "तेरह",
+    "Jaunsari": "तेरह"
+  },
+  {
+    "Number": "14",
+    "Hindi": "चौदह",
+    "English": "Fourteen",
+    "Garhwali": "चौदह",
+    "Kumaoni": "चौदह",
+    "Jaunsari": "चौदह"
+  },
+  {
+    "Number": "15",
+    "Hindi": "पंद्रह",
+    "English": "Fifteen",
+    "Garhwali": "पंद्रह",
+    "Kumaoni": "पंद्रह",
+    "Jaunsari": "पंद्रह"
+  },
+  {
+    "Number": "16",
+    "Hindi": "सोलह",
+    "English": "Sixteen",
+    "Garhwali": "सोलह",
+    "Kumaoni": "सोलह",
+    "Jaunsari": "सोलह"
+  },
+  {
+    "Number": "17",
+    "Hindi": "सत्रह",
+    "English": "Seventeen",
+    "Garhwali": "सत्रह",
+    "Kumaoni": "सत्रह",
+    "Jaunsari": "सत्रह"
+  },
+  {
+    "Number": "18",
+    "Hindi": "अठारह",
+    "English": "Eighteen",
+    "Garhwali": "अठारह",
+    "Kumaoni": "अठारह",
+    "Jaunsari": "अठारह"
+  },
+  {
+    "Number": "19",
+    "Hindi": "उन्नीस",
+    "English": "Nineteen",
+    "Garhwali": "उन्नीस",
+    "Kumaoni": "उन्नीस",
+    "Jaunsari": "उन्नीस"
+  },
+  {
+    "Number": "20",
+    "Hindi": "बीस",
+    "English": "Twenty",
+    "Garhwali": "बीस",
+    "Kumaoni": "बीस",
+    "Jaunsari": "बीस"
+  },
+  {
+    "Number": "21",
+    "Hindi": "इक्कीस",
+    "English": "Twenty One",
+    "Garhwali": "इक्कीस",
+    "Kumaoni": "इक्कीस",
+    "Jaunsari": "इक्कीस"
+  },
+  {
+    "Number": "22",
+    "Hindi": "बाईस",
+    "English": "Twenty Two",
+    "Garhwali": "बाईस",
+    "Kumaoni": "बाईस",
+    "Jaunsari": "बाईस"
+  },
+  {
+    "Number": "23",
+    "Hindi": "तेईस",
+    "English": "Twenty Three",
+    "Garhwali": "तेईस",
+    "Kumaoni": "तेईस",
+    "Jaunsari": "तेईस"
+  },
+  {
+    "Number": "24",
+    "Hindi": "चौबीस",
+    "English": "Twenty Four",
+    "Garhwali": "चौबीस",
+    "Kumaoni": "चौबीस",
+    "Jaunsari": "चौबीस"
+  },
+  {
+    "Number": "25",
+    "Hindi": "पच्चीस",
+    "English": "Twenty Five",
+    "Garhwali": "पच्चीस",
+    "Kumaoni": "पच्चीस",
+    "Jaunsari": "पच्चीस"
+  },
+  {
+    "Number": "26",
+    "Hindi": "छब्बीस",
+    "English": "Twenty Six",
+    "Garhwali": "छब्बीस",
+    "Kumaoni": "छब्बीस",
+    "Jaunsari": "छब्बीस"
+  },
+  {
+    "Number": "27",
+    "Hindi": "सत्ताईस",
+    "English": "Twenty Seven",
+    "Garhwali": "सत्ताईस",
+    "Kumaoni": "सत्ताईस",
+    "Jaunsari": "सत्ताईस"
+  },
+  {
+    "Number": "28",
+    "Hindi": "अट्ठाईस",
+    "English": "Twenty Eight",
+    "Garhwali": "अट्ठाईस",
+    "Kumaoni": "अट्ठाईस",
+    "Jaunsari": "अट्ठाईस"
+  },
+  {
+    "Number": "29",
+    "Hindi": "उनतीस",
+    "English": "Twenty Nine",
+    "Garhwali": "उनतीस",
+    "Kumaoni": "उनतीस",
+    "Jaunsari": "उनतीस"
+  },
+  {
+    "Number": "30",
+    "Hindi": "तीस",
+    "English": "Thirty",
+    "Garhwali": "तीस",
+    "Kumaoni": "तीस",
+    "Jaunsari": "तीस"
+  },
+  {
+    "Number": "31",
+    "Hindi": "इकतीस",
+    "English": "Thirty One",
+    "Garhwali": "इकतीस",
+    "Kumaoni": "इकतीस",
+    "Jaunsari": "इकतीस"
+  },
+  {
+    "Number": "32",
+    "Hindi": "बत्तीस",
+    "English": "Thirty Two",
+    "Garhwali": "बत्तीस",
+    "Kumaoni": "बत्तीस",
+    "Jaunsari": "बत्तीस"
+  },
+  {
+    "Number": "33",
+    "Hindi": "तैंतीस",
+    "English": "Thirty Three",
+    "Garhwali": "तैंतीस",
+    "Kumaoni": "तैंतीस",
+    "Jaunsari": "तैंतीस"
+  },
+  {
+    "Number": "34",
+    "Hindi": "चौंतीस",
+    "English": "Thirty Four",
+    "Garhwali": "चौंतीस",
+    "Kumaoni": "चौंतीस",
+    "Jaunsari": "चौंतीस"
+  },
+  {
+    "Number": "35",
+    "Hindi": "पैंतीस",
+    "English": "Thirty Five",
+    "Garhwali": "पैंतीस",
+    "Kumaoni": "पैंतीस",
+    "Jaunsari": "पैंतीस"
+  },
+  {
+    "Number": "36",
+    "Hindi": "छत्तीस",
+    "English": "Thirty Six",
+    "Garhwali": "छत्तीस",
+    "Kumaoni": "छत्तीस",
+    "Jaunsari": "छत्तीस"
+  },
+  {
+    "Number": "37",
+    "Hindi": "सैंतीस",
+    "English": "Thirty Seven",
+    "Garhwali": "सैंतीस",
+    "Kumaoni": "सैंतीस",
+    "Jaunsari": "सैंतीस"
+  },
+  {
+    "Number": "38",
+    "Hindi": "अड़तीस",
+    "English": "Thirty Eight",
+    "Garhwali": "अड़तीस",
+    "Kumaoni": "अड़तीस",
+    "Jaunsari": "अड़तीस"
+  },
+  {
+    "Number": "39",
+    "Hindi": "उनतालीस",
+    "English": "Thirty Nine",
+    "Garhwali": "उनतालीस",
+    "Kumaoni": "उनतालीस",
+    "Jaunsari": "उनतालीस"
+  },
+  {
+    "Number": "40",
+    "Hindi": "चालीस",
+    "English": "Forty",
+    "Garhwali": "चालीस",
+    "Kumaoni": "चालीस",
+    "Jaunsari": "चालीस"
+  },
+  {
+    "Number": "41",
+    "Hindi": "इकतालीस",
+    "English": "Forty One",
+    "Garhwali": "इकतालीस",
+    "Kumaoni": "इकतालीस",
+    "Jaunsari": "इकतालीस"
+  },
+  {
+    "Number": "42",
+    "Hindi": "बयालीस",
+    "English": "Forty Two",
+    "Garhwali": "बयालीस",
+    "Kumaoni": "बयालीस",
+    "Jaunsari": "बयालीस"
+  },
+  {
+    "Number": "43",
+    "Hindi": "तैंतालीस",
+    "English": "Forty Three",
+    "Garhwali": "तैंतालीस",
+    "Kumaoni": "तैंतालीस",
+    "Jaunsari": "तैंतालीस"
+  },
+  {
+    "Number": "44",
+    "Hindi": "चवालीस",
+    "English": "Forty Four",
+    "Garhwali": "चवालीस",
+    "Kumaoni": "चवालीस",
+    "Jaunsari": "चवालीस"
+  },
+  {
+    "Number": "45",
+    "Hindi": "पैंतालीस",
+    "English": "Forty Five",
+    "Garhwali": "पैंतालीस",
+    "Kumaoni": "पैंतालीस",
+    "Jaunsari": "पैंतालीस"
+  },
+  {
+    "Number": "46",
+    "Hindi": "छयालिस",
+    "English": "Forty Six",
+    "Garhwali": "छयालिस",
+    "Kumaoni": "छयालिस",
+    "Jaunsari": "छयालिस"
+  },
+  {
+    "Number": "47",
+    "Hindi": "सैंतालीस",
+    "English": "Forty Seven",
+    "Garhwali": "सैंतालीस",
+    "Kumaoni": "सैंतालीस",
+    "Jaunsari": "सैंतालीस"
+  },
+  {
+    "Number": "48",
+    "Hindi": "अड़तालीस",
+    "English": "Forty Eight",
+    "Garhwali": "अड़तालीस",
+    "Kumaoni": "अड़तालीस",
+    "Jaunsari": "अड़तालीस"
+  },
+  {
+    "Number": "49",
+    "Hindi": "उनचास",
+    "English": "Forty Nine",
+    "Garhwali": "उनचास",
+    "Kumaoni": "उनचास",
+    "Jaunsari": "उनचास"
+  },
+  {
+    "Number": "50",
+    "Hindi": "पचास",
+    "English": "Fifty",
+    "Garhwali": "पचास",
+    "Kumaoni": "पचास",
+    "Jaunsari": "पचास"
+  },
+  {
+    "Number": "51",
+    "Hindi": "इक्यावन",
+    "English": "Fifty One",
+    "Garhwali": "इक्यावन",
+    "Kumaoni": "इक्यावन",
+    "Jaunsari": "इक्यावन"
+  },
+  {
+    "Number": "52",
+    "Hindi": "बावन",
+    "English": "Fifty Two",
+    "Garhwali": "बावन",
+    "Kumaoni": "बावन",
+    "Jaunsari": "बावन"
+  },
+  {
+    "Number": "53",
+    "Hindi": "तिरपन",
+    "English": "Fifty Three",
+    "Garhwali": "तिरपन",
+    "Kumaoni": "तिरपन",
+    "Jaunsari": "तिरपन"
+  },
+  {
+    "Number": "54",
+    "Hindi": "चव्वन",
+    "English": "Fifty Four",
+    "Garhwali": "चव्वन",
+    "Kumaoni": "चव्वन",
+    "Jaunsari": "चव्वन"
+  },
+  {
+    "Number": "55",
+    "Hindi": "पचपन",
+    "English": "Fifty Five",
+    "Garhwali": "पचपन",
+    "Kumaoni": "पचपन",
+    "Jaunsari": "पचपन"
+  },
+  {
+    "Number": "56",
+    "Hindi": "छप्पन",
+    "English": "Fifty Six",
+    "Garhwali": "छप्पन",
+    "Kumaoni": "छप्पन",
+    "Jaunsari": "छप्पन"
+  },
+  {
+    "Number": "57",
+    "Hindi": "सतावन",
+    "English": "Fifty Seven",
+    "Garhwali": "सतावन",
+    "Kumaoni": "सतावन",
+    "Jaunsari": "सतावन"
+  },
+  {
+    "Number": "58",
+    "Hindi": "अट्ठावन",
+    "English": "Fifty Eight",
+    "Garhwali": "अट्ठावन",
+    "Kumaoni": "अट्ठावन",
+    "Jaunsari": "अट्ठावन"
+  },
+  {
+    "Number": "59",
+    "Hindi": "उनसठ",
+    "English": "Fifty Nine",
+    "Garhwali": "उनसठ",
+    "Kumaoni": "उनसठ",
+    "Jaunsari": "उनसठ"
+  },
+  {
+    "Number": "60",
+    "Hindi": "साठ",
+    "English": "Sixty",
+    "Garhwali": "साठ",
+    "Kumaoni": "साठ",
+    "Jaunsari": "साठ"
+  },
+  {
+    "Number": "61",
+    "Hindi": "इकसठ",
+    "English": "Sixty One",
+    "Garhwali": "इकसठ",
+    "Kumaoni": "इकसठ",
+    "Jaunsari": "इकसठ"
+  },
+  {
+    "Number": "62",
+    "Hindi": "बासठ",
+    "English": "Sixty Two",
+    "Garhwali": "बासठ",
+    "Kumaoni": "बासठ",
+    "Jaunsari": "बासठ"
+  },
+  {
+    "Number": "63",
+    "Hindi": "तिरसठ",
+    "English": "Sixty Three",
+    "Garhwali": "तिरसठ",
+    "Kumaoni": "तिरसठ",
+    "Jaunsari": "तिरसठ"
+  },
+  {
+    "Number": "64",
+    "Hindi": "चौंसठ",
+    "English": "Sixty Four",
+    "Garhwali": "चौंसठ",
+    "Kumaoni": "चौंसठ",
+    "Jaunsari": "चौंसठ"
+  },
+  {
+    "Number": "65",
+    "Hindi": "पैंसठ",
+    "English": "Sixty Five",
+    "Garhwali": "पैंसठ",
+    "Kumaoni": "पैंसठ",
+    "Jaunsari": "पैंसठ"
+  },
+  {
+    "Number": "66",
+    "Hindi": "छियासठ",
+    "English": "Sixty Six",
+    "Garhwali": "छियासठ",
+    "Kumaoni": "छियासठ",
+    "Jaunsari": "छियासठ"
+  },
+  {
+    "Number": "67",
+    "Hindi": "सड़सठ",
+    "English": "Sixty Seven",
+    "Garhwali": "सड़सठ",
+    "Kumaoni": "सड़सठ",
+    "Jaunsari": "सड़सठ"
+  },
+  {
+    "Number": "68",
+    "Hindi": "अड़सठ",
+    "English": "Sixty Eight",
+    "Garhwali": "अड़सठ",
+    "Kumaoni": "अड़सठ",
+    "Jaunsari": "अड़सठ"
+  },
+  {
+    "Number": "69",
+    "Hindi": "उनहत्तर",
+    "English": "Sixty Nine",
+    "Garhwali": "उनहत्तर",
+    "Kumaoni": "उनहत्तर",
+    "Jaunsari": "उनहत्तर"
+  },
+  {
+    "Number": "70",
+    "Hindi": "सत्तर",
+    "English": "Seventy",
+    "Garhwali": "सत्तर",
+    "Kumaoni": "सत्तर",
+    "Jaunsari": "सत्तर"
+  },
+  {
+    "Number": "71",
+    "Hindi": "इकहत्तर",
+    "English": "Seventy One",
+    "Garhwali": "इकहत्तर",
+    "Kumaoni": "इकहत्तर",
+    "Jaunsari": "इकहत्तर"
+  },
+  {
+    "Number": "72",
+    "Hindi": "बहत्तर",
+    "English": "Seventy Two",
+    "Garhwali": "बहत्तर",
+    "Kumaoni": "बहत्तर",
+    "Jaunsari": "बहत्तर"
+  },
+  {
+    "Number": "73",
+    "Hindi": "तिहत्तर",
+    "English": "Seventy Three",
+    "Garhwali": "तिहत्तर",
+    "Kumaoni": "तिहत्तर",
+    "Jaunsari": "तिहत्तर"
+  },
+  {
+    "Number": "74",
+    "Hindi": "चौहत्तर",
+    "English": "Seventy Four",
+    "Garhwali": "चौहत्तर",
+    "Kumaoni": "चौहत्तर",
+    "Jaunsari": "चौहत्तर"
+  },
+  {
+    "Number": "75",
+    "Hindi": "पचहत्तर",
+    "English": "Seventy Five",
+    "Garhwali": "पचहत्तर",
+    "Kumaoni": "पचहत्तर",
+    "Jaunsari": "पचहत्तर"
+  },
+  {
+    "Number": "76",
+    "Hindi": "छिहत्तर",
+    "English": "Seventy Six",
+    "Garhwali": "छिहत्तर",
+    "Kumaoni": "छिहत्तर",
+    "Jaunsari": "छिहत्तर"
+  },
+  {
+    "Number": "77",
+    "Hindi": "सतहत्तर",
+    "English": "Seventy Seven",
+    "Garhwali": "सतहत्तर",
+    "Kumaoni": "सतहत्तर",
+    "Jaunsari": "सतहत्तर"
+  },
+  {
+    "Number": "78",
+    "Hindi": "अठहत्तर",
+    "English": "Seventy Eight",
+    "Garhwali": "अठहत्तर",
+    "Kumaoni": "अठहत्तर",
+    "Jaunsari": "अठहत्तर"
+  },
+  {
+    "Number": "79",
+    "Hindi": "उनासी",
+    "English": "Seventy Nine",
+    "Garhwali": "उनासी",
+    "Kumaoni": "उनासी",
+    "Jaunsari": "उनासी"
+  },
+  {
+    "Number": "80",
+    "Hindi": "अस्सी",
+    "English": "Eighty",
+    "Garhwali": "अस्सी",
+    "Kumaoni": "अस्सी",
+    "Jaunsari": "अस्सी"
+  },
+  {
+    "Number": "81",
+    "Hindi": "इक्यासी",
+    "English": "Eighty One",
+    "Garhwali": "इक्यासी",
+    "Kumaoni": "इक्यासी",
+    "Jaunsari": "इक्यासी"
+  },
+  {
+    "Number": "82",
+    "Hindi": "बयासी",
+    "English": "Eighty Two",
+    "Garhwali": "बयासी",
+    "Kumaoni": "बयासी",
+    "Jaunsari": "बयासी"
+  },
+  {
+    "Number": "83",
+    "Hindi": "तिरासी",
+    "English": "Eighty Three",
+    "Garhwali": "तिरासी",
+    "Kumaoni": "तिरासी",
+    "Jaunsari": "तिरासी"
+  },
+  {
+    "Number": "84",
+    "Hindi": "चौरासी",
+    "English": "Eighty Four",
+    "Garhwali": "चौरासी",
+    "Kumaoni": "चौरासी",
+    "Jaunsari": "चौरासी"
+  },
+  {
+    "Number": "85",
+    "Hindi": "पचासी",
+    "English": "Eighty Five",
+    "Garhwali": "पचासी",
+    "Kumaoni": "पचासी",
+    "Jaunsari": "पचासी"
+  },
+  {
+    "Number": "86",
+    "Hindi": "छियासी",
+    "English": "Eighty Six",
+    "Garhwali": "छियासी",
+    "Kumaoni": "छियासी",
+    "Jaunsari": "छियासी"
+  },
+  {
+    "Number": "87",
+    "Hindi": "सतासी",
+    "English": "Eighty Seven",
+    "Garhwali": "सतासी",
+    "Kumaoni": "सतासी",
+    "Jaunsari": "सतासी"
+  },
+  {
+    "Number": "88",
+    "Hindi": "अट्ठासी",
+    "English": "Eighty Eight",
+    "Garhwali": "अट्ठासी",
+    "Kumaoni": "अट्ठासी",
+    "Jaunsari": "अट्ठासी"
+  },
+  {
+    "Number": "89",
+    "Hindi": "उननब्बे",
+    "English": "Eighty Nine",
+    "Garhwali": "उननब्बे",
+    "Kumaoni": "उननब्बे",
+    "Jaunsari": "उननब्बे"
+  },
+  {
+    "Number": "90",
+    "Hindi": "नब्बे",
+    "English": "Ninety",
+    "Garhwali": "नब्बे",
+    "Kumaoni": "नब्बे",
+    "Jaunsari": "नब्बे"
+  },
+  {
+    "Number": "91",
+    "Hindi": "इक्यानवे",
+    "English": "Ninety One",
+    "Garhwali": "इक्यानवे",
+    "Kumaoni": "इक्यानवे",
+    "Jaunsari": "इक्यानवे"
+  },
+  {
+    "Number": "92",
+    "Hindi": "बानवे",
+    "English": "Ninety Two",
+    "Garhwali": "बानवे",
+    "Kumaoni": "बानवे",
+    "Jaunsari": "बानवे"
+  },
+  {
+    "Number": "93",
+    "Hindi": "तिरानवे",
+    "English": "Ninety Three",
+    "Garhwali": "तिरानवे",
+    "Kumaoni": "तिरानवे",
+    "Jaunsari": "तिरानवे"
+  },
+  {
+    "Number": "94",
+    "Hindi": "चौरानवे",
+    "English": "Ninety Four",
+    "Garhwali": "चौरानवे",
+    "Kumaoni": "चौरानवे",
+    "Jaunsari": "चौरानवे"
+  },
+  {
+    "Number": "95",
+    "Hindi": "पिचानवे",
+    "English": "Ninety Five",
+    "Garhwali": "पिचानवे",
+    "Kumaoni": "पिचानवे",
+    "Jaunsari": "पिचानवे"
+  },
+  {
+    "Number": "96",
+    "Hindi": "छियानवे",
+    "English": "Ninety Six",
+    "Garhwali": "छियानवे",
+    "Kumaoni": "छियानवे",
+    "Jaunsari": "छियानवे"
+  },
+  {
+    "Number": "97",
+    "Hindi": "सतान्वे",
+    "English": "Ninety Seven",
+    "Garhwali": "सतान्वे",
+    "Kumaoni": "सतान्वे",
+    "Jaunsari": "सतान्वे"
+  },
+  {
+    "Number": "98",
+    "Hindi": "अट्ठानवे",
+    "English": "Ninety Eight",
+    "Garhwali": "अट्ठानवे",
+    "Kumaoni": "अट्ठानवे",
+    "Jaunsari": "अट्ठानवे"
+  },
+  {
+    "Number": "99",
+    "Hindi": "निन्यानवे",
+    "English": "Ninety Nine",
+    "Garhwali": "निन्यानवे",
+    "Kumaoni": "निन्यानवे",
+    "Jaunsari": "निन्यानवे"
+  },
+  {
+    "Number": "100",
+    "Hindi": "सौ",
+    "English": "One Hundred",
+    "Garhwali": "सौ",
+    "Kumaoni": "सौ",
+    "Jaunsari": "सौ"
+  }
+]
