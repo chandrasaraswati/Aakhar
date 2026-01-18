@@ -16,7 +16,7 @@ export function renderAboutPage(mainContentElement) {
 
       <div class="card">
         <div class="card-header">
-          <h2>Introduction | परिचय</h2>
+          <h2>Motivation | उद्देश्य</h2>
         </div>
         <div class="card-content">
           <div class="translation-grid">
@@ -44,31 +44,32 @@ export function renderAboutPage(mainContentElement) {
         <div class="card-header">
           <h2>Encouragement | प्रोत्साहन</h2>
         </div>
+        <div class="endorsement-profile">
+            <img class="team-member-img" src="assets/team/Pushkar_Singh_Dhami.jpg" alt="Pushkar Singh Dhami">
+            <div>
+              <h3>Shri Pushkar Singh Dhami</h3>
+              <p>Chief Minister (Uttarakhand)</p>
+            </div>
+        </div>
         <div class="card-content">
           <div class="translation-grid">
             <div class="lang-col"> <p>
-                  Necessity is the mother of invention, this is proven by the effort of this important, immediately 
-                  usable dictionary! It is hoped that this effort will benefit all language and state lovers!
+                  Necessity is the mother of invention. This is proven by the effort of this important, immediately
+                  usable dictionary. It is hoped that this effort will benefit all language and state lovers, youth in particular!
               </p>
               <p>
-                I heartily praise this unique effort and give my best wishes!
+                I heartily appreciate and extend my best wishes for this unique purposeful effort by Col (Dr) Dimri and team.
+                I hope this dictionary will be useful for all looking to learn Utharakandi languages.
               </p>
             </div>
-            <div class="lang-col"> <p>
-                  आवश्यकता आविष्कार की जननी है, यह चरितार्थ होता है इस महत्वपूर्ण तत्काल प्रयोगी शब्दकोष के प्रयास से ! आशा है कि सभी भाषा व् प्रदेश प्रेमियों को यह प्रयास लाभान्वित करेगा !
+            <div class="lang-col"> 
+            <p>
+                आवश्यकता आविष्कार की जननी है। यह बात इस महत्वपूर्ण तत्काल प्रयोगी शब्दकोष के प्रयास से सिद्ध होता है! आशा है कि यह शब्दकोष सभी भाषा तथा राज्य प्रेमियों, विशेषत: युवाओं के लिए लाभप्रद होगा!
               </p>
               <p>
-                  इस अनूठे प्रयास की मैं भरपूर प्रशंसा करता हूँ तथा शुभकामनाएँ देता हूँ !
+              मैं कर्नल (डॉ) डिमरी और उनकी टीम की इस अत्यावश्यक एवं उद्देश्यपूर्ण प्रयास की हार्दिक प्रशंसा करता हूँ। मुझे पूर्ण आशा है कि यह शब्दकोष सभी उत्तराखंडी भाषा सीखने वालों के लिए उपयोगी सिद्ध होगा।
               </p>
             </div>
-          </div>
-          
-          <div class="endorsement-profile">
-              <img class="team-member-img" src="assets/team/Pushkar_Singh_Dhami.jpg" alt="Pushkar Singh Dhami">
-              <div>
-                <h3>Shri Pushkar Singh Dhami</h3>
-                <p>Chief Minister (Uttarakhand)</p>
-              </div>
           </div>
         </div>
       </div>
@@ -82,12 +83,12 @@ export function renderAboutPage(mainContentElement) {
           <div class="team-grid">
             <div class="team-member">
               <img class="team-member-img" src="assets/team/Col_Dev_Dimri.jpg" alt="Col. Dev Dimri">
-              <h3>Col. Dev Dimri</h3>
+              <h3>Col (Dr) D P Dimri</h3>
               <p>Project Lead</p>
             </div>
             <div class="team-member">
               <img class="team-member-img" src="assets/team/Saraswati_Prithvi.jpg" alt="Prithvi & Saraswati">
-              <h3>Prithvi & Saraswati</h3>
+              <h3>Saraswati & Prithvi</h3>
               <p>Developers</p>
             </div>
             <div class="team-member">
@@ -116,7 +117,7 @@ export function renderAboutPage(mainContentElement) {
         <div class="card-content">
           <p>
             This app is for the community. If you have feedback, suggestions, or would like to
-            contribute, please contact us at: <strong>p(at)earthlord.io</strong>.
+            contribute, please contact us at: <strong>devdimri@gmail.com</strong>
           </p>
         </div>
       </div>
