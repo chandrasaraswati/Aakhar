@@ -86,7 +86,7 @@
   {
     "Hindi": "सड़ने की गंध",
     "English": "Foul Smell",
-    "Garhwali": "सेंडयान",
+    "Garhwali": "सड्याण",
     "Kumaoni": "बदबू",
     "Jaunsari": "गडाण"
   },
@@ -112,7 +112,7 @@
     "Jaunsari": "नादरी गाड"
   },
   {
-    "Hindi": "पहाड़ की छोटी",
+    "Hindi": "पहाड़ की चोटी",
     "English": "Hill Peak",
     "Garhwali": "डांडा",
     "Kumaoni": "डान",
@@ -161,11 +161,25 @@
     "Jaunsari": "मुंड"
   },
   {
+    "Hindi": "लड़की",
+    "English": "Girl",
+    "Garhwali": "नौनी",
+    "Kumaoni": "च्यैली",
+    "Jaunsari": "चौउटी"
+  },
+  {
     "Hindi": "शादी",
     "English": "Marriage",
     "Garhwali": "ब्यो",
     "Kumaoni": "ब्या",
     "Jaunsari": "जोजोड़ा"
+  },
+  {
+    "Hindi": "खेत",
+    "English": "Fields",
+    "Garhwali": "पुंगडा",
+    "Kumaoni": "खेत",
+    "Jaunsari": "डोखरो"
   },
   {
     "Hindi": "औरत",
@@ -359,7 +373,7 @@
   {
     "Hindi": "सर दर्द",
     "English": "Headache",
-    "Garhwali": "मुडारू",
+    "Garhwali": "मुंडारू",
     "Kumaoni": "मुनाव पीड़",
     "Jaunsari": "मुण्डाअ"
   },
@@ -436,7 +450,7 @@
   {
     "Hindi": "मेहमान",
     "English": "Guests",
-    "Garhwali": "पौना",
+    "Garhwali": "पौणा ",
     "Kumaoni": "मेहमान / पौड़",
     "Jaunsari": "पाऊणे"
   },
@@ -457,7 +471,7 @@
   {
     "Hindi": "खरोंच",
     "English": "Scratch",
-    "Garhwali": "चरोड़ा",
+    "Garhwali": "चिरौटा",
     "Kumaoni": "उचेड़ना",
     "Jaunsari": "झिरा / खल्या रोहो"
   },

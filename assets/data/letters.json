@@ -74,7 +74,7 @@
   {
     "Letter": "ओ",
     "Hindi": "ओनम",
-    "English": "Onam a festival",
+    "English": "Onam- a festival",
     "Garhwali": "ओनम",
     "Kumaoni": "ओनम",
     "Jaunsari": "ओनम"
@@ -94,6 +94,14 @@
     "Garhwali": "अंगूर",
     "Kumaoni": "अंगूर",
     "Jaunsari": "बैट कूड़ी "
+  },
+  {
+    "Letter": "अः",
+    "Hindi": "",
+    "English": "",
+    "Garhwali": "",
+    "Kumaoni": "",
+    "Jaunsari": ""
   },
   {
     "Letter": "क",
@@ -128,6 +136,14 @@
     "Jaunsari": "घड़ी"
   },
   {
+    "Letter": "ङ",
+    "Hindi": "",
+    "English": "",
+    "Garhwali": "",
+    "Kumaoni": "",
+    "Jaunsari": ""
+  },
+  {
     "Letter": "च",
     "Hindi": "चम्मच",
     "English": "Spoon",
@@ -160,6 +176,14 @@
     "Jaunsari": "झंडा"
   },
   {
+    "Letter": "ञ",
+    "Hindi": "",
+    "English": "",
+    "Garhwali": "",
+    "Kumaoni": "",
+    "Jaunsari": ""
+  },
+  {
     "Letter": "ट",
     "Hindi": "टमाटर",
     "English": "Tomato",
@@ -182,6 +206,22 @@
     "Garhwali": "डमरू",
     "Kumaoni": "डमरू",
     "Jaunsari": "डमरू"
+  },
+  {
+    "Letter": "ढ",
+    "Hindi": "",
+    "English": "",
+    "Garhwali": "",
+    "Kumaoni": "",
+    "Jaunsari": ""
+  },
+  {
+    "Letter": "ण",
+    "Hindi": "",
+    "English": "",
+    "Garhwali": "",
+    "Kumaoni": "",
+    "Jaunsari": ""
   },
   {
     "Letter": "त",
