@@ -7,7 +7,7 @@ export function renderHomePage(mainContentElement) {
     <div class="home-container">
       
       <div class="home-logo-card">
-        <div class="home-logo">आखर</div>
+        <div class="home-logo">आखर | Aakhar</div>
       </div>
 
       <div class="home-content">
@@ -20,9 +20,6 @@ export function renderHomePage(mainContentElement) {
           <h1 class="home-title-english">Uttarakhandi Language Instant Short Dictionary</h1>
           <p class="home-subtitle-english">Hindi / English / Garhwali / Kumaoni / Jaunsari</p>
         </div>
-        
-        <img src="assets/other/uttarakhand_map.png" alt="Uttarakhand Map" class="home-map-img">
-        
         <div class="home-cta-buttons">
           <a href="#learn" class="btn">Start Learning &rarr;</a>
           <a href="#uttarakhand" class="btn btn-secondary">About Uttarakhand</a>
