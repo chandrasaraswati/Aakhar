@@ -1,6 +1,6 @@
 // Define cache names for static assets (the app shell) and dynamic data (JSON, images)
-const CACHE_STATIC_NAME = 'aakhar-static-v3'; // Increment v-number to force update
-const CACHE_DYNAMIC_NAME = 'aakhar-dynamic-v3';
+const CACHE_STATIC_NAME = 'aakhar-static-v4'; // Increment v-number to force update
+const CACHE_DYNAMIC_NAME = 'aakhar-dynamic-v4';
 
 // List of files to cache on install (the "App Shell")
 // This list MUST include all core files your app needs to run.
