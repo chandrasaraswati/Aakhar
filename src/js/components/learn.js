@@ -1,6 +1,9 @@
 // Import API functions
 import { getAvailableCategories, getCategoryData, getImagePath, shuffle } from '../api.js';
 
+// Configuration: Set to false to hide images, true to show them
+const SHOW_IMAGES = false;
+
 // Module-level variables to hold the state
 let mainContainer = null;
 let categoryData = [];
@@ -80,21 +83,20 @@ async function loadCategory(categoryId) {
  * Renders the main flashcard UI shell (buttons, containers).
  */
 function renderFlashcardView() {
-    const viewHtml = `
+const viewHtml = `
     <div class="flashcard-view">
       
       <div class="flashcard-nav">
         <div class="nav-controls-left">
           <button class="btn" id="learn-back-btn">&larr;</button>
-          
           <button class="btn btn-icon" id="shuffle-btn" title="Shuffle Deck">🔀</button>
         </div>
-        
         <span id="progress-indicator" class="progress"></span>
       </div>
       
       <div class="card flashcard-content-wrapper">
-        <img id="flashcard-img" src="" alt="Learning Image" class="flashcard-img">
+        <img id="flashcard-img" src="" alt="Learning Image" class="flashcard-img" 
+             style="${SHOW_IMAGES ? '' : 'display: none;'}">
         <div id="flashcard-translations"></div>
       </div>
 
@@ -131,9 +133,11 @@ function showCurrentCard() {
   const prevBtn = document.getElementById('prev-btn');
   const nextBtn = document.getElementById('next-btn');
 
-  // Update Image
-  imgEl.src = getImagePath(item.English);
-  imgEl.alt = item.English;
+  // Only update and load the image if SHOW_IMAGES is true
+  if (SHOW_IMAGES && imgEl) {
+    imgEl.src = getImagePath(item.English);
+    imgEl.alt = item.English;
+  }
   
   // Check for special "Number" or "Letter" keys
   let specialRowHtml = '';
