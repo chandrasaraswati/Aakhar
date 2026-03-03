@@ -38,6 +38,108 @@
   font-weight: bold;
 }
 
+.nav-controls-left {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.alphabet-ribbon-wrapper {
+  position: relative;
+  margin-bottom: 1rem;
+  background: #fff;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  padding: 0.6rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.alphabet-scroll {
+  display: flex;
+  gap: 0.6rem;
+  overflow-x: auto;
+  padding: 0 2.8rem;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.alphabet-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.letter-filter-btn {
+  flex: 0 0 2.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  background: #f3f4f6;
+  color: #374151;
+  font-weight: 700;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.2s ease;
+}
+
+.letter-filter-btn.active {
+  background: var(--theme-color);
+  color: #fff;
+  box-shadow: 0 2px 6px rgba(236, 98, 7, 0.35);
+}
+
+.alphabet-nav-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.9rem;
+  height: 1.9rem;
+  border-radius: 999px;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  color: #4b5563;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alphabet-nav-prev {
+  left: 0.6rem;
+}
+
+.alphabet-nav-next {
+  right: 0.6rem;
+}
+
+.alphabet-nav-arrow.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.alphabet-fade-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 3.2rem;
+  pointer-events: none;
+  z-index: 5;
+  transition: opacity 0.2s ease;
+}
+
+.alphabet-fade-left {
+  left: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 0));
+}
+
+.alphabet-fade-right {
+  right: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 0));
+}
+
 .flashcard-content-wrapper {
   /* This is the .card */
   padding: 0; /* Remove default card padding */
@@ -133,4 +235,10 @@
   font-weight: bold;
   color: #555;
   width: 120px; 
+}
+
+.empty-letter-state {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #555;
 }
