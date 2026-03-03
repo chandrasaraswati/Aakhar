@@ -1,499 +1,807 @@
 [
-  {
-    "Hindi": "चोटी",
-    "English": "Pony tail",
-    "Garhwali": "चुफली",
-    "Kumaoni": "लटी",
-    "Jaunsari": "बेंटूली"
-  },
-  {
-    "Hindi": "बेचारा",
-    "English": "Poor fellow",
-    "Garhwali": "लाटा",
-    "Kumaoni": "लाट",
-    "Jaunsari": "रांइडा"
-  },
-  {
-    "Hindi": "दौड़ना",
-    "English": "Run",
-    "Garhwali": "दनक्णु",
-    "Kumaoni": "दोड़न",
-    "Jaunsari": "दौड"
-  },
-  {
-    "Hindi": "कहाँ",
-    "English": "Where",
-    "Garhwali": "क्ख",
-    "Kumaoni": "काँ",
-    "Jaunsari": "कोके"
-  },
-  {
-    "Hindi": "यहाँ",
-    "English": "Here",
-    "Garhwali": "यख",
-    "Kumaoni": "इख / यों",
-    "Jaunsari": "ऐतके"
-  },
-  {
-    "Hindi": "वहाँ",
-    "English": "There",
-    "Garhwali": "वख",
-    "Kumaoni": "वों",
-    "Jaunsari": "तै के"
-  },
-  {
-    "Hindi": "मेरा",
-    "English": "My",
-    "Garhwali": "मेरू",
-    "Kumaoni": "म्यर",
-    "Jaunsari": "मेरो"
-  },
-  {
-    "Hindi": "तेरा",
-    "English": "Your",
-    "Garhwali": "तेरू",
-    "Kumaoni": "तुमर",
-    "Jaunsari": "तेरा"
-  },
-  {
-    "Hindi": "जाना",
-    "English": "Go",
-    "Garhwali": "जाणु",
-    "Kumaoni": "जाण",
-    "Jaunsari": "पुडाजा"
-  },
-  {
-    "Hindi": "आना",
-    "English": "Come",
-    "Garhwali": "औणु",
-    "Kumaoni": "अण",
-    "Jaunsari": "उडाआ"
-  },
-  {
-    "Hindi": "रोना",
-    "English": "Cry",
-    "Garhwali": "बिलबिलाट / रोण",
-    "Kumaoni": "रूण",
-    "Jaunsari": "रूणों"
-  },
-  {
-    "Hindi": "सुगंध",
-    "English": "Flavour",
-    "Garhwali": "मिठान",
-    "Kumaoni": "खुशबू",
-    "Jaunsari": "धांद"
-  },
-  {
-    "Hindi": "सड़ने की गंध",
-    "English": "Foul Smell",
-    "Garhwali": "सड्याण",
-    "Kumaoni": "बदबू",
-    "Jaunsari": "गडाण"
-  },
-  {
-    "Hindi": "दोस्त",
-    "English": "Friend",
-    "Garhwali": "दगड्या",
-    "Kumaoni": "मितुर",
-    "Jaunsari": "साथी"
-  },
-  {
-    "Hindi": "साथ",
-    "English": "Together",
-    "Garhwali": "दगडी",
-    "Kumaoni": "दगड",
-    "Jaunsari": "सापेची"
-  },
-  {
-    "Hindi": "छोटी नदी",
-    "English": "Stream",
-    "Garhwali": "गाड / गदेरू",
-    "Kumaoni": "गध्यर",
-    "Jaunsari": "नादरी गाड"
-  },
-  {
-    "Hindi": "पहाड़ की चोटी",
-    "English": "Hill Peak",
-    "Garhwali": "डांडा",
-    "Kumaoni": "डान",
-    "Jaunsari": "ऊँचा टिमा"
-  },
-  {
-    "Hindi": "गुफा",
-    "English": "Cave",
-    "Garhwali": "उड्यार",
-    "Kumaoni": "बयार",
-    "Jaunsari": "आडार"
-  },
-  {
-    "Hindi": "नीचे",
-    "English": "Down",
-    "Garhwali": "मूडी",
-    "Kumaoni": "मूडी",
-    "Jaunsari": "उधो"
-  },
-  {
-    "Hindi": "उपर",
-    "English": "Up",
-    "Garhwali": "ऐंच / माथी",
-    "Kumaoni": "मथिन / माथ",
-    "Jaunsari": "ऊबो"
-  },
-  {
-    "Hindi": "अकेला",
-    "English": "Alone",
-    "Garhwali": "यखूली",
-    "Kumaoni": "यकले",
-    "Jaunsari": "एलेका"
-  },
-  {
-    "Hindi": "गाँव",
-    "English": "Village",
-    "Garhwali": "गौं",
-    "Kumaoni": "गौं",
-    "Jaunsari": "गौंव"
-  },
-  {
-    "Hindi": "सिर",
-    "English": "Head",
-    "Garhwali": "कपाल / मुंड",
-    "Kumaoni": "कपाल",
-    "Jaunsari": "मुंड"
-  },
-  {
-    "Hindi": "लड़की",
-    "English": "Girl",
-    "Garhwali": "नौनी",
-    "Kumaoni": "च्यैली",
-    "Jaunsari": "चौउटी"
-  },
-  {
-    "Hindi": "शादी",
-    "English": "Marriage",
-    "Garhwali": "ब्यो",
-    "Kumaoni": "ब्या",
-    "Jaunsari": "जोजोड़ा"
-  },
-  {
-    "Hindi": "खेत",
-    "English": "Fields",
-    "Garhwali": "पुंगडा",
-    "Kumaoni": "खेत",
-    "Jaunsari": "डोखरो"
-  },
-  {
-    "Hindi": "औरत",
-    "English": "Women",
-    "Garhwali": "जनानी",
-    "Kumaoni": "इथत्री",
-    "Jaunsari": "बेट कुड़ी"
-  },
-  {
-    "Hindi": "गर्मी के दिन",
-    "English": "Hot Day",
-    "Garhwali": "रुड्या दिन",
-    "Kumaoni": "गर्म दिन",
-    "Jaunsari": "रूड़ा के दुस"
-  },
-  {
-    "Hindi": "जंगल",
-    "English": "Forest",
-    "Garhwali": "बण",
-    "Kumaoni": "जंगल",
-    "Jaunsari": "बोण"
-  },
-  {
-    "Hindi": "आकलन",
-    "English": "Estimate",
-    "Garhwali": "पैमायश",
-    "Kumaoni": "अन्ताज",
-    "Jaunsari": "अणदाज"
-  },
-  {
-    "Hindi": "प्रसंग",
-    "English": "Context",
-    "Garhwali": "प्रसंग",
-    "Kumaoni": "चर्चा",
-    "Jaunsari": "बौलरा"
-  },
-  {
-    "Hindi": "वितरण",
-    "English": "Distribution",
-    "Garhwali": "बाट्णु",
-    "Kumaoni": "बाटणबाटनो",
-    "Jaunsari": "व्यौरा"
-  },
-  {
-    "Hindi": "संदेश",
-    "English": "Message",
-    "Garhwali": "रैबार",
-    "Kumaoni": "जुवाब",
-    "Jaunsari": "खबर"
-  },
-  {
-    "Hindi": "अभी",
-    "English": "Now",
-    "Garhwali": "अब्भी",
-    "Kumaoni": "अत्ते",
-    "Jaunsari": "एभी"
-  },
-  {
-    "Hindi": "सचमुच",
-    "English": "Really",
-    "Garhwali": "सच माँ",
-    "Kumaoni": "सचि में",
-    "Jaunsari": "साचेको"
-  },
-  {
-    "Hindi": "ओह नहीं",
-    "English": "Oh No",
-    "Garhwali": "न रे ना",
-    "Kumaoni": "ना",
-    "Jaunsari": "नाले"
-  },
-  {
-    "Hindi": "क्या",
-    "English": "What",
-    "Garhwali": "क्या च",
-    "Kumaoni": "के",
-    "Jaunsari": "का"
-  },
-  {
-    "Hindi": "क्यों",
-    "English": "Why",
-    "Garhwali": "किले",
-    "Kumaoni": "किले",
-    "Jaunsari": "काई"
-  },
-  {
-    "Hindi": "हो गया",
-    "English": "Done",
-    "Garhwali": "ह्वे गे",
-    "Kumaoni": "गेहेगो",
-    "Jaunsari": "हमीगो"
-  },
-  {
-    "Hindi": "जल्दी",
-    "English": "Hurry",
-    "Garhwali": "सरपट",
-    "Kumaoni": "जल्द",
-    "Jaunsari": "झठ"
-  },
-  {
-    "Hindi": "औरत",
-    "English": "Lady",
-    "Garhwali": "कज्याण",
-    "Kumaoni": "सैनी",
-    "Jaunsari": "बेटकुड़ी"
-  },
-  {
-    "Hindi": "आदमी",
-    "English": "Man",
-    "Garhwali": "आदिम",
-    "Kumaoni": "मैंस",
-    "Jaunsari": "मरद"
-  },
-  {
-    "Hindi": "कभी नही",
-    "English": "Never",
-    "Garhwali": "कब्बी ना",
-    "Kumaoni": "कभैं ना",
-    "Jaunsari": "कदीना"
-  },
-  {
-    "Hindi": "लड़का",
-    "English": "Boy",
-    "Garhwali": "छोरा",
-    "Kumaoni": "लौड़ / चेला",
-    "Jaunsari": "चौऊटा"
-  },
-  {
-    "Hindi": "सो रहा है",
-    "English": "Sleeping",
-    "Garhwali": "सीणु",
-    "Kumaoni": "पड़ छु",
-    "Jaunsari": "सूती ये ले"
-  },
-  {
-    "Hindi": "वहा जाओ",
-    "English": "Go There",
-    "Garhwali": "फुंड / वख जा",
-    "Kumaoni": "वों जा",
-    "Jaunsari": "पूंड्डे जाओ"
-  },
-  {
-    "Hindi": "चेहरा",
-    "English": "Face",
-    "Garhwali": "मुक्क",
-    "Kumaoni": "मुखड़",
-    "Jaunsari": "मू"
-  },
-  {
-    "Hindi": "चूहा",
-    "English": "Rat",
-    "Garhwali": "मुस्सु",
-    "Kumaoni": "मूसा",
-    "Jaunsari": "मुशा"
-  },
-  {
-    "Hindi": "बर्तन",
-    "English": "Utensils",
-    "Garhwali": "भांडा",
-    "Kumaoni": "भांड",
-    "Jaunsari": "भांडे"
-  },
-  {
-    "Hindi": "लड़की",
-    "English": "Girl",
-    "Garhwali": "छोरी",
-    "Kumaoni": "च्यैली",
-    "Jaunsari": "चौऊटी"
-  },
-  {
-    "Hindi": "इधर आओ",
-    "English": "Come Here",
-    "Garhwali": "इने / यख औ",
-    "Kumaoni": "यों आ",
-    "Jaunsari": "उन्ड आओ"
-  },
-  {
-    "Hindi": "नमक",
-    "English": "Salt",
-    "Garhwali": "लोण",
-    "Kumaoni": "लूण",
-    "Jaunsari": "नून"
-  },
-  {
-    "Hindi": "खेत",
-    "English": "Field",
-    "Garhwali": "पंगाडा",
-    "Kumaoni": "डोखरो",
-    "Jaunsari": "डोखरे"
-  },
-  {
-    "Hindi": "सर दर्द",
-    "English": "Headache",
-    "Garhwali": "मुंडारू",
-    "Kumaoni": "मुनाव पीड़",
-    "Jaunsari": "मुण्डाअ"
-  },
-  {
-    "Hindi": "गिरना",
-    "English": "Fall",
-    "Garhwali": "लमडण",
-    "Kumaoni": "धुरिण",
-    "Jaunsari": "रूडी"
-  },
-  {
-    "Hindi": "छोटे बच्चे",
-    "English": "Children",
-    "Garhwali": "नौना / नौनी",
-    "Kumaoni": "नानतिन",
-    "Jaunsari": "नादरे लाडकोरे"
-  },
-  {
-    "Hindi": "बुजुर्ग",
-    "English": "Elders",
-    "Garhwali": "दाना / बुड्या",
-    "Kumaoni": "बुड",
-    "Jaunsari": "बा टा"
-  },
-  {
-    "Hindi": "बुखार",
-    "English": "Fever",
-    "Garhwali": "जर",
-    "Kumaoni": "बुखार",
-    "Jaunsari": "जअर"
-  },
-  {
-    "Hindi": "शोरबा",
-    "English": "Soup",
-    "Garhwali": "झोल",
-    "Kumaoni": "झोल / तरी",
-    "Jaunsari": "ताल"
-  },
-  {
-    "Hindi": "याद",
-    "English": "Remembrance",
-    "Garhwali": "खुद",
-    "Kumaoni": "नरे",
-    "Jaunsari": "आप्पू"
-  },
-  {
-    "Hindi": "छोटी नदी",
-    "English": "Rivulet",
-    "Garhwali": "गाड",
-    "Kumaoni": "गाड़",
-    "Jaunsari": "खाड़ा"
-  },
-  {
-    "Hindi": "चालाक",
-    "English": "Clever",
-    "Garhwali": "चकडेत",
-    "Kumaoni": "होशियार",
-    "Jaunsari": "चलाक"
-  },
-  {
-    "Hindi": "पाजामा",
-    "English": "Pajama",
-    "Garhwali": "सुलार",
-    "Kumaoni": "पैजाम",
-    "Jaunsari": "पैजामा"
-  },
-  {
-    "Hindi": "पठिया",
-    "English": "Slate",
-    "Garhwali": "पठाल",
-    "Kumaoni": "पाटीला",
-    "Jaunsari": "छयिण"
-  },
-  {
-    "Hindi": "मेहमान",
-    "English": "Guests",
-    "Garhwali": "पौणा ",
-    "Kumaoni": "मेहमान / पौड़",
-    "Jaunsari": "पाऊणे"
-  },
-  {
-    "Hindi": "अचानक",
-    "English": "Suddenly",
-    "Garhwali": "भक्क",
-    "Kumaoni": "भक्क",
-    "Jaunsari": "एकाणि"
-  },
-  {
-    "Hindi": "सोया",
-    "English": "Soyabean",
-    "Garhwali": "भट्ट",
-    "Kumaoni": "भट्ट",
-    "Jaunsari": "लोबिये / भरट"
-  },
-  {
-    "Hindi": "खरोंच",
-    "English": "Scratch",
-    "Garhwali": "चिरौटा",
-    "Kumaoni": "उचेड़ना",
-    "Jaunsari": "झिरा / खल्या रोहो"
-  },
-  {
-    "Hindi": "संगत",
-    "English": "Company",
-    "Garhwali": "दगडा",
-    "Kumaoni": "दगड",
-    "Jaunsari": "शागड़"
-  },
-  {
-    "Hindi": "कल (बीता हुआ)",
-    "English": "Yesterday",
-    "Garhwali": "ब्याली",
-    "Kumaoni": "परबी",
-    "Jaunsari": "बिया"
-  },
-  {
-    "Hindi": "कल (आने वाला)",
-    "English": "Tomorrow",
-    "Garhwali": "भोल",
-    "Kumaoni": "भोल",
-    "Jaunsari": "दोतिया"
-  }
+ {
+   "Hindi": "चोटी",
+   "English": "Pony tail",
+   "Garhwali": "चुफली",
+   "Kumaoni": "लटी",
+   "Jaunsari": "बेंटूली"
+ },
+ {
+   "Hindi": "बेचारा",
+   "English": "Poor fellow",
+   "Garhwali": "लाटा",
+   "Kumaoni": "लाट",
+   "Jaunsari": "रांइडा"
+ },
+ {
+   "Hindi": "दौड़ना",
+   "English": "Run",
+   "Garhwali": "दनक्णु",
+   "Kumaoni": "दोड़न",
+   "Jaunsari": "दौड"
+ },
+ {
+   "Hindi": "कहाँ",
+   "English": "Where",
+   "Garhwali": "क्ख",
+   "Kumaoni": "काँ",
+   "Jaunsari": "कोके"
+ },
+ {
+   "Hindi": "यहाँ",
+   "English": "Here",
+   "Garhwali": "यख",
+   "Kumaoni": "इख / यों",
+   "Jaunsari": "ऐतके"
+ },
+ {
+   "Hindi": "वहाँ",
+   "English": "There",
+   "Garhwali": "वख",
+   "Kumaoni": "वों",
+   "Jaunsari": "तै के"
+ },
+ {
+   "Hindi": "मेरा",
+   "English": "My",
+   "Garhwali": "मेरू",
+   "Kumaoni": "म्यर",
+   "Jaunsari": "मेरो"
+ },
+ {
+   "Hindi": "तेरा",
+   "English": "Your",
+   "Garhwali": "तेरू",
+   "Kumaoni": "तुमर",
+   "Jaunsari": "तेरा"
+ },
+ {
+   "Hindi": "जाना",
+   "English": "Go",
+   "Garhwali": "जाणु",
+   "Kumaoni": "जाण",
+   "Jaunsari": "पुडाजा"
+ },
+ {
+   "Hindi": "आना",
+   "English": "Come",
+   "Garhwali": "औणु",
+   "Kumaoni": "अण",
+   "Jaunsari": "उडाआ"
+ },
+ {
+   "Hindi": "रोना",
+   "English": "Cry",
+   "Garhwali": "बिलबिलाट / रोण",
+   "Kumaoni": "रूण",
+   "Jaunsari": "रूणों"
+ },
+ {
+   "Hindi": "सुगंध",
+   "English": "Flavour",
+   "Garhwali": "मिठान",
+   "Kumaoni": "खुशबू",
+   "Jaunsari": "धांद"
+ },
+ {
+   "Hindi": "सड़ने की गंध",
+   "English": "Foul Smell",
+   "Garhwali": "सड्याण",
+   "Kumaoni": "बदबू",
+   "Jaunsari": "गडाण"
+ },
+ {
+   "Hindi": "दोस्त",
+   "English": "Friend",
+   "Garhwali": "दगड्या",
+   "Kumaoni": "मितुर",
+   "Jaunsari": "साथी"
+ },
+ {
+   "Hindi": "साथ",
+   "English": "Together",
+   "Garhwali": "दगडी",
+   "Kumaoni": "दगड",
+   "Jaunsari": "सापेची"
+ },
+ {
+   "Hindi": "छोटी नदी",
+   "English": "Stream",
+   "Garhwali": "गाड / गदेरू",
+   "Kumaoni": "गध्यर",
+   "Jaunsari": "नादरी गाड"
+ },
+ {
+   "Hindi": "पहाड़ की चोटी",
+   "English": "Hill Peak",
+   "Garhwali": "डांडा",
+   "Kumaoni": "डान",
+   "Jaunsari": "ऊँचा टिमा"
+ },
+ {
+   "Hindi": "गुफा",
+   "English": "Cave",
+   "Garhwali": "उड्यार",
+   "Kumaoni": "बयार",
+   "Jaunsari": "आडार"
+ },
+ {
+   "Hindi": "नीचे",
+   "English": "Down",
+   "Garhwali": "मूडी",
+   "Kumaoni": "मूडी",
+   "Jaunsari": "उधो"
+ },
+ {
+   "Hindi": "उपर",
+   "English": "Up",
+   "Garhwali": "ऐंच / माथी",
+   "Kumaoni": "मथिन / माथ",
+   "Jaunsari": "ऊबो"
+ },
+ {
+   "Hindi": "अकेला",
+   "English": "Alone",
+   "Garhwali": "यखूली",
+   "Kumaoni": "यकले",
+   "Jaunsari": "एलेका"
+ },
+ {
+   "Hindi": "गाँव",
+   "English": "Village",
+   "Garhwali": "गौं",
+   "Kumaoni": "गौं",
+   "Jaunsari": "गौंव"
+ },
+ {
+   "Hindi": "सिर",
+   "English": "Head",
+   "Garhwali": "कपाल / मुंड",
+   "Kumaoni": "कपाल",
+   "Jaunsari": "मुंड"
+ },
+ {
+   "Hindi": "लड़की",
+   "English": "Girl",
+   "Garhwali": "नौनी",
+   "Kumaoni": "च्यैली",
+   "Jaunsari": "चौउटी"
+ },
+ {
+   "Hindi": "शादी",
+   "English": "Marriage",
+   "Garhwali": "ब्यो",
+   "Kumaoni": "ब्या",
+   "Jaunsari": "जोजोड़ा"
+ },
+ {
+   "Hindi": "खेत",
+   "English": "Fields",
+   "Garhwali": "पुंगडा",
+   "Kumaoni": "खेत",
+   "Jaunsari": "डोखरो"
+ },
+ {
+   "Hindi": "औरत",
+   "English": "Women",
+   "Garhwali": "जनानी",
+   "Kumaoni": "इथत्री",
+   "Jaunsari": "बेट कुड़ी"
+ },
+ {
+   "Hindi": "गर्मी के दिन",
+   "English": "Hot Day",
+   "Garhwali": "रुड्या दिन",
+   "Kumaoni": "गर्म दिन",
+   "Jaunsari": "रूड़ा के दुस"
+ },
+ {
+   "Hindi": "जंगल",
+   "English": "Forest",
+   "Garhwali": "बण",
+   "Kumaoni": "जंगल",
+   "Jaunsari": "बोण"
+ },
+ {
+   "Hindi": "आकलन",
+   "English": "Estimate",
+   "Garhwali": "पैमायश",
+   "Kumaoni": "अन्ताज",
+   "Jaunsari": "अणदाज"
+ },
+ {
+   "Hindi": "प्रसंग",
+   "English": "Context",
+   "Garhwali": "प्रसंग",
+   "Kumaoni": "चर्चा",
+   "Jaunsari": "बौलरा"
+ },
+ {
+   "Hindi": "वितरण",
+   "English": "Distribution",
+   "Garhwali": "बाट्णु",
+   "Kumaoni": "बाटणबाटनो",
+   "Jaunsari": "व्यौरा"
+ },
+ {
+   "Hindi": "संदेश",
+   "English": "Message",
+   "Garhwali": "रैबार",
+   "Kumaoni": "जुवाब",
+   "Jaunsari": "खबर"
+ },
+ {
+   "Hindi": "अभी",
+   "English": "Now",
+   "Garhwali": "अब्भी",
+   "Kumaoni": "अत्ते",
+   "Jaunsari": "एभी"
+ },
+ {
+   "Hindi": "सचमुच",
+   "English": "Really",
+   "Garhwali": "सच माँ",
+   "Kumaoni": "सचि में",
+   "Jaunsari": "साचेको"
+ },
+ {
+   "Hindi": "ओह नहीं",
+   "English": "Oh No",
+   "Garhwali": "न रे ना",
+   "Kumaoni": "ना",
+   "Jaunsari": "नाले"
+ },
+ {
+   "Hindi": "क्या",
+   "English": "What",
+   "Garhwali": "क्या च",
+   "Kumaoni": "के",
+   "Jaunsari": "का"
+ },
+ {
+   "Hindi": "क्यों",
+   "English": "Why",
+   "Garhwali": "किले",
+   "Kumaoni": "किले",
+   "Jaunsari": "काई"
+ },
+ {
+   "Hindi": "हो गया",
+   "English": "Done",
+   "Garhwali": "ह्वे गे",
+   "Kumaoni": "गेहेगो",
+   "Jaunsari": "हमीगो"
+ },
+ {
+   "Hindi": "जल्दी",
+   "English": "Hurry",
+   "Garhwali": "सरपट",
+   "Kumaoni": "जल्द",
+   "Jaunsari": "झठ"
+ },
+ {
+   "Hindi": "औरत",
+   "English": "Lady",
+   "Garhwali": "कज्याण",
+   "Kumaoni": "सैनी",
+   "Jaunsari": "बेटकुड़ी"
+ },
+ {
+   "Hindi": "आदमी",
+   "English": "Man",
+   "Garhwali": "आदिम",
+   "Kumaoni": "मैंस",
+   "Jaunsari": "मरद"
+ },
+ {
+   "Hindi": "कभी नही",
+   "English": "Never",
+   "Garhwali": "कब्बी ना",
+   "Kumaoni": "कभैं ना",
+   "Jaunsari": "कदीना"
+ },
+ {
+   "Hindi": "लड़का",
+   "English": "Boy",
+   "Garhwali": "छोरा",
+   "Kumaoni": "लौड़ / चेला",
+   "Jaunsari": "चौऊटा"
+ },
+ {
+   "Hindi": "सो रहा है",
+   "English": "Sleeping",
+   "Garhwali": "सीणु",
+   "Kumaoni": "पड़ छु",
+   "Jaunsari": "सूती ये ले"
+ },
+ {
+   "Hindi": "वहा जाओ",
+   "English": "Go There",
+   "Garhwali": "फुंड / वख जा",
+   "Kumaoni": "वों जा",
+   "Jaunsari": "पूंड्डे जाओ"
+ },
+ {
+   "Hindi": "चेहरा",
+   "English": "Face",
+   "Garhwali": "मुक्क",
+   "Kumaoni": "मुखड़",
+   "Jaunsari": "मू"
+ },
+ {
+   "Hindi": "चूहा",
+   "English": "Rat",
+   "Garhwali": "मुस्सु",
+   "Kumaoni": "मूसा",
+   "Jaunsari": "मुशा"
+ },
+ {
+   "Hindi": "बर्तन",
+   "English": "Utensils",
+   "Garhwali": "भांडा",
+   "Kumaoni": "भांड",
+   "Jaunsari": "भांडे"
+ },
+ {
+   "Hindi": "लड़की",
+   "English": "Girl",
+   "Garhwali": "छोरी",
+   "Kumaoni": "च्यैली",
+   "Jaunsari": "चौऊटी"
+ },
+ {
+   "Hindi": "इधर आओ",
+   "English": "Come Here",
+   "Garhwali": "इने / यख औ",
+   "Kumaoni": "यों आ",
+   "Jaunsari": "उन्ड आओ"
+ },
+ {
+   "Hindi": "नमक",
+   "English": "Salt",
+   "Garhwali": "लोण",
+   "Kumaoni": "लूण",
+   "Jaunsari": "नून"
+ },
+ {
+   "Hindi": "खेत",
+   "English": "Field",
+   "Garhwali": "पंगाडा",
+   "Kumaoni": "डोखरो",
+   "Jaunsari": "डोखरे"
+ },
+ {
+   "Hindi": "सर दर्द",
+   "English": "Headache",
+   "Garhwali": "मुंडारू",
+   "Kumaoni": "मुनाव पीड़",
+   "Jaunsari": "मुण्डाअ"
+ },
+ {
+   "Hindi": "गिरना",
+   "English": "Fall",
+   "Garhwali": "लमडण",
+   "Kumaoni": "धुरिण",
+   "Jaunsari": "रूडी"
+ },
+ {
+   "Hindi": "छोटे बच्चे",
+   "English": "Children",
+   "Garhwali": "नौना / नौनी",
+   "Kumaoni": "नानतिन",
+   "Jaunsari": "नादरे लाडकोरे"
+ },
+ {
+   "Hindi": "बुजुर्ग",
+   "English": "Elders",
+   "Garhwali": "दाना / बुड्या",
+   "Kumaoni": "बुड",
+   "Jaunsari": "बा टा"
+ },
+ {
+   "Hindi": "बुखार",
+   "English": "Fever",
+   "Garhwali": "जर",
+   "Kumaoni": "बुखार",
+   "Jaunsari": "जअर"
+ },
+ {
+   "Hindi": "शोरबा",
+   "English": "Soup",
+   "Garhwali": "झोल",
+   "Kumaoni": "झोल / तरी",
+   "Jaunsari": "ताल"
+ },
+ {
+   "Hindi": "याद",
+   "English": "Remembrance",
+   "Garhwali": "खुद",
+   "Kumaoni": "नरे",
+   "Jaunsari": "आप्पू"
+ },
+ {
+   "Hindi": "छोटी नदी",
+   "English": "Rivulet",
+   "Garhwali": "गाड",
+   "Kumaoni": "गाड़",
+   "Jaunsari": "खाड़ा"
+ },
+ {
+   "Hindi": "चालाक",
+   "English": "Clever",
+   "Garhwali": "चकडेत",
+   "Kumaoni": "होशियार",
+   "Jaunsari": "चलाक"
+ },
+ {
+   "Hindi": "पाजामा",
+   "English": "Pajama",
+   "Garhwali": "सुलार",
+   "Kumaoni": "पैजाम",
+   "Jaunsari": "पैजामा"
+ },
+ {
+   "Hindi": "पठिया",
+   "English": "Slate",
+   "Garhwali": "पठाल",
+   "Kumaoni": "पाटीला",
+   "Jaunsari": "छयिण"
+ },
+ {
+   "Hindi": "मेहमान",
+   "English": "Guests",
+   "Garhwali": "पौणा ",
+   "Kumaoni": "मेहमान / पौड़",
+   "Jaunsari": "पाऊणे"
+ },
+ {
+   "Hindi": "अचानक",
+   "English": "Suddenly",
+   "Garhwali": "भक्क",
+   "Kumaoni": "भक्क",
+   "Jaunsari": "एकाणि"
+ },
+ {
+   "Hindi": "सोया",
+   "English": "Soyabean",
+   "Garhwali": "भट्ट",
+   "Kumaoni": "भट्ट",
+   "Jaunsari": "लोबिये / भरट"
+ },
+ {
+   "Hindi": "खरोंच",
+   "English": "Scratch",
+   "Garhwali": "चिरौटा",
+   "Kumaoni": "उचेड़ना",
+   "Jaunsari": "झिरा / खल्या रोहो"
+ },
+ {
+   "Hindi": "संगत",
+   "English": "Company",
+   "Garhwali": "दगडा",
+   "Kumaoni": "दगड",
+   "Jaunsari": "शागड़"
+ },
+ {
+   "Hindi": "कल (बीता हुआ)",
+   "English": "Yesterday",
+   "Garhwali": "ब्याली",
+   "Kumaoni": "परबी",
+   "Jaunsari": "बिया"
+ },
+ {
+   "Hindi": "कल (आने वाला)",
+   "English": "Tomorrow",
+   "Garhwali": "भोल",
+   "Kumaoni": "भोल",
+   "Jaunsari": "दोतिया"
+ },
+ {
+   "Hindi": "अमरूद ",
+   "English": "Guava",
+   "Garhwali": "अमरूद ",
+   "Kumaoni": "अमरूद ",
+   "Jaunsari": "अमरूद "
+ },
+ {
+   "Hindi": "आम ",
+   "English": "Mango",
+   "Garhwali": "आम ",
+   "Kumaoni": "आम ",
+   "Jaunsari": "आम "
+ },
+ {
+   "Hindi": "इमली",
+   "English": "Tamarind",
+   "Garhwali": "इमली",
+   "Kumaoni": "इमली",
+   "Jaunsari": "इमली"
+ },
+ {
+   "Hindi": "ईख",
+   "English": "Sugarcane",
+   "Garhwali": "गन्ना ",
+   "Kumaoni": "ईख",
+   "Jaunsari": "गने"
+ },
+ {
+   "Hindi": "उल्लू",
+   "English": "Owl",
+   "Garhwali": "उल्लू",
+   "Kumaoni": "उल्लू",
+   "Jaunsari": "उल्लू"
+ },
+ {
+   "Hindi": "ऊँट",
+   "English": "Camel",
+   "Garhwali": "ऊँट",
+   "Kumaoni": "ऊँट",
+   "Jaunsari": "ऊँट"
+ },
+ {
+   "Hindi": "ऋषि",
+   "English": "Sage",
+   "Garhwali": "ऋषि",
+   "Kumaoni": "ऋषि",
+   "Jaunsari": "ऋषि"
+ },
+ {
+   "Hindi": "एडी",
+   "English": "Heel",
+   "Garhwali": "एडी",
+   "Kumaoni": "एडी",
+   "Jaunsari": "पईन "
+ },
+ {
+   "Hindi": "ऐनक",
+   "English": "Spectacle",
+   "Garhwali": "ऐनक",
+   "Kumaoni": "चश्मा ",
+   "Jaunsari": "आईना "
+ },
+ {
+   "Hindi": "ओनम",
+   "English": "Onam- a festival",
+   "Garhwali": "ओनम",
+   "Kumaoni": "ओनम",
+   "Jaunsari": "ओनम"
+ },
+ {
+   "Hindi": "औरत",
+   "English": "Woman",
+   "Garhwali": "औरत",
+   "Kumaoni": "औरत",
+   "Jaunsari": "औरत"
+ },
+ {
+   "Hindi": "अंगूर",
+   "English": "Grapes",
+   "Garhwali": "अंगूर",
+   "Kumaoni": "अंगूर",
+   "Jaunsari": "बैट कूड़ी "
+ },
+ {
+   "Hindi": "कबूतर",
+   "English": "Piegon",
+   "Garhwali": "कबूतर",
+   "Kumaoni": "कबूतर",
+   "Jaunsari": "कबूतर"
+ },
+ {
+   "Hindi": "खजूर",
+   "English": "Dates",
+   "Garhwali": "खजूर",
+   "Kumaoni": "खजूर",
+   "Jaunsari": "खजूर"
+ },
+ {
+   "Hindi": "गमला",
+   "English": "Flower pot",
+   "Garhwali": "गमला",
+   "Kumaoni": "गमला",
+   "Jaunsari": "गमला"
+ },
+ {
+   "Hindi": "घड़ी",
+   "English": "Watch",
+   "Garhwali": "घड़ी",
+   "Kumaoni": "घड़ी",
+   "Jaunsari": "घड़ी"
+ },
+ {
+   "Hindi": "चम्मच",
+   "English": "Spoon",
+   "Garhwali": "चम्मच",
+   "Kumaoni": "चम्मच",
+   "Jaunsari": "चम्मच"
+ },
+ {
+   "Hindi": "छत",
+   "English": "Roof",
+   "Garhwali": "छत",
+   "Kumaoni": "छत",
+   "Jaunsari": "छत"
+ },
+ {
+   "Hindi": "जहाज़",
+   "English": "Ship",
+   "Garhwali": "जहाज़",
+   "Kumaoni": "जहाज़",
+   "Jaunsari": "जहाज़"
+ },
+ {
+   "Hindi": "झंडा",
+   "English": "Flag",
+   "Garhwali": "झंडा",
+   "Kumaoni": "झंडा",
+   "Jaunsari": "झंडा"
+ },
+ {
+   "Hindi": "टमाटर",
+   "English": "Tomato",
+   "Garhwali": "टमाटर",
+   "Kumaoni": "टमाटर",
+   "Jaunsari": "टमाटर"
+ },
+ {
+   "Hindi": "ठठेरा",
+   "English": "Coppersmith",
+   "Garhwali": "ठठेरा",
+   "Kumaoni": "ठठेरा",
+   "Jaunsari": "ठठेरा"
+ },
+ {
+   "Hindi": "डमरू",
+   "English": "Two headed drum",
+   "Garhwali": "डमरू",
+   "Kumaoni": "डमरू",
+   "Jaunsari": "डमरू"
+ },
+ {
+   "Hindi": "तरबूज",
+   "English": "Watermelon",
+   "Garhwali": "तरबूज",
+   "Kumaoni": "तरबूज",
+   "Jaunsari": "तरबूज"
+ },
+ {
+   "Hindi": "थर्मस",
+   "English": "Flask",
+   "Garhwali": "थर्मस",
+   "Kumaoni": "थर्मस",
+   "Jaunsari": "थर्मस"
+ },
+ {
+   "Hindi": "दवाई",
+   "English": "Medicine",
+   "Garhwali": "दवाई",
+   "Kumaoni": "पैथ ",
+   "Jaunsari": "जडी"
+ },
+ {
+   "Hindi": "धनुष",
+   "English": "Bow",
+   "Garhwali": "धनुष",
+   "Kumaoni": "धनुष",
+   "Jaunsari": "धनुष"
+ },
+ {
+   "Hindi": "नल",
+   "English": "Tap",
+   "Garhwali": "नल",
+   "Kumaoni": "नल",
+   "Jaunsari": "नल"
+ },
+ {
+   "Hindi": "पतंग",
+   "English": "Kite",
+   "Garhwali": "पतंग",
+   "Kumaoni": "पतंग",
+   "Jaunsari": "पतंग"
+ },
+ {
+   "Hindi": "फल",
+   "English": "Fruit",
+   "Garhwali": "फल",
+   "Kumaoni": "फल",
+   "Jaunsari": "फडवार "
+ },
+ {
+   "Hindi": "बकरी",
+   "English": "Goat",
+   "Garhwali": "बकरी",
+   "Kumaoni": "बकरी",
+   "Jaunsari": "बकरी"
+ },
+ {
+   "Hindi": "भक्त",
+   "English": "Devotee",
+   "Garhwali": "भक्त",
+   "Kumaoni": "भक्त",
+   "Jaunsari": "भक्त"
+ },
+ {
+   "Hindi": "मछली",
+   "English": "Fish",
+   "Garhwali": "मछली",
+   "Kumaoni": "मछली",
+   "Jaunsari": "मछली"
+ },
+ {
+   "Hindi": "यज्ञ",
+   "English": "Fire worship (yagya)",
+   "Garhwali": "यज्ञ",
+   "Kumaoni": "यज्ञ",
+   "Jaunsari": "यज्ञ"
+ },
+ {
+   "Hindi": "रथ",
+   "English": "Chariot",
+   "Garhwali": "रथ",
+   "Kumaoni": "रथ",
+   "Jaunsari": "रथ"
+ },
+ {
+   "Hindi": "लड़की",
+   "English": "Girl",
+   "Garhwali": "लड़की",
+   "Kumaoni": "लड़की",
+   "Jaunsari": "छौउटी "
+ },
+ {
+   "Hindi": "वन",
+   "English": "Forest",
+   "Garhwali": "वन",
+   "Kumaoni": "वन",
+   "Jaunsari": "वन"
+ },
+ {
+   "Hindi": "शलगम",
+   "English": "Turnip",
+   "Garhwali": "शलगम",
+   "Kumaoni": "शलगम",
+   "Jaunsari": "शलगम"
+ },
+ {
+   "Hindi": "षष्ठ कोण ",
+   "English": "Hexagon",
+   "Garhwali": "षष्ठ कोण ",
+   "Kumaoni": "षष्ठ कोण ",
+   "Jaunsari": "षष्ठ कोण "
+ },
+ {
+   "Hindi": "सब्ज़ी",
+   "English": "Vegetable",
+   "Garhwali": "सब्ज़ी",
+   "Kumaoni": "सब्ज़ी",
+   "Jaunsari": "सब्ज़ी"
+ },
+ {
+   "Hindi": "हथोड़ा",
+   "English": "Hammer",
+   "Garhwali": "हथोड़ा",
+   "Kumaoni": "हथोड़ा",
+   "Jaunsari": "हथोड़ा"
+ },
+ {
+   "Hindi": "क्षत्रिय",
+   "English": "Warrior",
+   "Garhwali": "क्षत्रिय",
+   "Kumaoni": "क्षत्रिय",
+   "Jaunsari": "क्षत्रिय"
+ },
+ {
+   "Hindi": "त्रिशूल",
+   "English": "Trident",
+   "Garhwali": "त्रिशूल",
+   "Kumaoni": "त्रिशूल",
+   "Jaunsari": "त्रिशूल"
+ },
+ {
+   "Hindi": "ज्ञान",
+   "English": "Knowledge",
+   "Garhwali": "ज्ञान",
+   "Kumaoni": "ज्ञान",
+   "Jaunsari": "अक्ल "
+ }
 ]
