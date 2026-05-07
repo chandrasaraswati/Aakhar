@@ -4,7 +4,10 @@ import { getAvailableCategories, getCategoryData, getImagePath, shuffle } from '
 // Configuration: Set to false to hide images, true to show them
 const SHOW_IMAGES = false;
 const COMMON_WORDS_CATEGORY_ID = 'common_words';
+const SEASONS_CATEGORY_ID = 'seasons';
 const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+const DEFAULT_TRANSLATION_FIELDS = ['English', 'Hindi', 'Garhwali', 'Kumaoni', 'Jaunsari'];
+const SEASONS_TRANSLATION_FIELDS = ['English', 'Hindi'];
 
 // Module-level variables to hold the state
 let mainContainer = null;
@@ -167,6 +170,22 @@ function renderFlashcardView() {
  */
 function isCommonWordsCategory() {
   return currentCategoryId === COMMON_WORDS_CATEGORY_ID;
+}
+
+/**
+ * Returns true if the currently loaded category is "Seasons".
+ * @returns {boolean}
+ */
+function isSeasonsCategory() {
+  return currentCategoryId === SEASONS_CATEGORY_ID;
+}
+
+/**
+ * Gets the translation fields to show for the current category.
+ * @returns {string[]}
+ */
+function getTranslationFields() {
+  return isSeasonsCategory() ? SEASONS_TRANSLATION_FIELDS : DEFAULT_TRANSLATION_FIELDS;
 }
 
 /**
@@ -337,31 +356,24 @@ function showCurrentCard() {
     `;
   }
 
+  const translationRowsHtml = getTranslationFields().map(field => {
+    const value = field === 'English' ? item.English : item[field] || 'N/A';
+
+    return `
+        <tr>
+          <td>${field}</td>
+          <td>${value}</td>
+        </tr>
+    `;
+  }).join('');
+
   // Update Translations
   // We will inject the specialRowHtml at the top of the table
   translationsEl.innerHTML = `
     <table class="translations-table">
       <tbody>
-        ${specialRowHtml} <tr>
-          <td>English</td>
-          <td>${item.English}</td>
-        </tr>
-        <tr>
-          <td>Hindi</td>
-          <td>${item.Hindi || 'N/A'}</td>
-        </tr>
-        <tr>
-          <td>Garhwali</td>
-          <td>${item.Garhwali || 'N/A'}</td>
-        </tr>
-        <tr>
-          <td>Kumaoni</td>
-          <td>${item.Kumaoni || 'N/A'}</td>
-        </tr>
-        <tr>
-          <td>Jaunsari</td>
-          <td>${item.Jaunsari || 'N/A'}</td>
-        </tr>
+        ${specialRowHtml}
+        ${translationRowsHtml}
       </tbody>
     </table>
   `;
